@@ -1,0 +1,22 @@
+# PURL configuration for https://purl.bican.org/taxonomy/CS202210140
+
+idspace: CS202210140
+base_url: /taxonomy/CS202210140
+
+products:
+- CS202210140.json: https://raw.githubusercontent.com/hkir-dev/human-brain-cell-atlas_v1_non-neuronal/main/CS202210140.json
+
+base_redirect: https://github.com/hkir-dev/human-brain-cell-atlas_v1_non-neuronal
+
+entries:
+
+# https://purl.bican.org/taxonomy/CS202210140/CS202210140.json
+- exact: /CS202210140.json
+  replacement: https://raw.githubusercontent.com/hkir-dev/human-brain-cell-atlas_v1_non-neuronal/main/CS202210140.json
+
+# https://purl.bican.org/taxonomy/CS202210140/releases/2023-09-24/CS202210140.json
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hkir-dev/human-brain-cell-atlas_v1_non-neuronal/v
+  tests:
+    - from: /releases/2023-09-24/
+      to: https://raw.githubusercontent.com/hkir-dev/human-brain-cell-atlas_v1_non-neuronal/v2023-09-24/
