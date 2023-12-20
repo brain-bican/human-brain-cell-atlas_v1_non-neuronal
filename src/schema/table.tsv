@@ -2,3 +2,7 @@ table	path	type	edit_view	description
 table	src/schema/table.tsv	table		All of the user-editable tables in this project.
 column	src/schema/column.tsv	column		Columns for all of the tables.
 datatype	src/schema/datatype.tsv	datatype		Datatypes for all of the columns
+Siletti_all_non_neuronal_cells_with_cids_annotation	curation_tables/Siletti_all_non_neuronal_cells_with_cids_annotation.tsv		ols_form	
+Siletti_all_non_neuronal_cells_with_cids_labelset	curation_tables/Siletti_all_non_neuronal_cells_with_cids_labelset.tsv			
+Siletti_all_non_neuronal_cells_with_cids_metadata	curation_tables/Siletti_all_non_neuronal_cells_with_cids_metadata.tsv			
+Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	curation_tables/Siletti_all_non_neuronal_cells_with_cids_annotation_transfer.tsv			
