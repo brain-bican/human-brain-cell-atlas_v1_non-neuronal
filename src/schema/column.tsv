@@ -20,37 +20,37 @@ datatype	structure		empty	text		data type structure
 datatype	SQLite type		empty	sql_type		the SQL type for representing this data in SQLite
 datatype	PostgreSQL type		empty	sql_type		the SQL type for representing this data in PostgreSQL
 datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data
-Siletti_all_non_neuronal_cells_with_cids_annotation	cell_set_accession	cell set accession		word	primary	
-Siletti_all_non_neuronal_cells_with_cids_annotation	cell_label	cell label	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	cell_fullname	cell fullname	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_annotation	cell_set_accession	cell set accession		word	primary	An identifier that can be used to consistently refer to the set of cells being annotated, even if the cell_label changes.
+Siletti_all_non_neuronal_cells_with_cids_annotation	cell_label	cell label	empty	text		This denotes any free-text term which the author uses to annotate cells, i.e. the preferred cell label name used by the author. Abbreviations are exceptable in this field; refer to 'cell_fullname' for related details. Certain key words have been reserved:- `'doublets'` is reserved for encoding cells defined as doublets based on some computational analysis- `'junk'` is reserved for encoding cells that failed sequencing for some reason, e.g. few genes detected, high fraction of mitochondrial reads- `'unknown'` is explicitly reserved for unknown or 'author does not know'- `'NA'` is incomplete, i.e. no cell annotation was provided
+Siletti_all_non_neuronal_cells_with_cids_annotation	cell_fullname	cell fullname	empty	text		This MUST be the full-length name for the biological entity listed in `cell_label` by the author. (If the value in `cell_label` is the full-length term, this field will contain the same value.) NOTE: any reserved word used in the field 'cell_label' MUST match the value of this field. EXAMPLE 1: Given the matching terms 'LC' and 'luminal cell' used to annotate the same cell(s), then users could use either terms as values in the field 'cell_label'. However, the abbreviation 'LC' CANNOT be provided in the field 'cell_fullname'. EXAMPLE 2: Either the abbreviation 'AC' or the full-length term intended by the author 'GABAergic amacrine cell' MAY be placed in the field 'cell_label', but as full-length term naming this biological entity, 'GABAergic amacrine cell' MUST be placed in the field 'cell_fullname'.
 Siletti_all_non_neuronal_cells_with_cids_annotation	parent_cell_set_accession	parent cell set accession	empty	text		
 Siletti_all_non_neuronal_cells_with_cids_annotation	parent_cell_set_name	parent cell set name	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	labelset	labelset	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	cell_ontology_term_id	cell ontology term id	empty	autocomplete_cl		
-Siletti_all_non_neuronal_cells_with_cids_annotation	cell_ontology_term	cell ontology term	empty	ontology_label		
-Siletti_all_non_neuronal_cells_with_cids_annotation	rationale	rationale	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	rationale_dois	rationale dois	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	marker_gene_evidence	marker gene evidence	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation	synonyms	synonyms	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_annotation	labelset	labelset	empty	text		The unique name of the set of cell annotations. Each cell within the AnnData/Seurat file MUST be associated with a 'cell_label' value in order for this to be a valid 'cellannotation_setname'.
+Siletti_all_non_neuronal_cells_with_cids_annotation	cell_ontology_term_id	cell ontology term id	empty	autocomplete_cl		This MUST be a term from either the Cell Ontology (https://www.ebi.ac.uk/ols/ontologies/cl) or from some ontology that extends it by classifying cell types under terms from the Cell Ontologye.g. the Provisional Cell Ontology (https://www.ebi.ac.uk/ols/ontologies/pcl) or the Drosophila Anatomy Ontology (DAO) (https://www.ebi.ac.uk/ols4/ontologies/fbbt).NOTE: The closest available ontology term matching the value within the field 'cell_label' (at the time of publication) MUST be used.For example, if the value of 'cell_label' is 'relay interneuron', but this entity does not yet exist in the ontology, users must choose the closest available term in the CL ontology. In this case, it's the broader term 'interneuron' i.e.  https://www.ebi.ac.uk/ols/ontologies/cl/terms?obo_id=CL:0000099.
+Siletti_all_non_neuronal_cells_with_cids_annotation	cell_ontology_term	cell ontology term	empty	ontology_label		This MUST be the human-readable name assigned to the value of 'cell_ontology_term_id'
+Siletti_all_non_neuronal_cells_with_cids_annotation	rationale	rationale	empty	text		The free-text rationale which users provide as justification/evidence for their cell annotations. Researchers are encouraged to use this field to cite relevant publications in-line using standard academic citations of the form `(Zheng et al., 2020)` This human-readable free-text MUST be encoded as a single string.All references cited SHOULD be listed using DOIs under rationale_dois. There MUST be a 2000-character limit.
+Siletti_all_non_neuronal_cells_with_cids_annotation	rationale_dois	rationale dois	empty	text		A list of valid publication DOIs cited by the author to support or provide justification/evidence/context for 'cell_label'.
+Siletti_all_non_neuronal_cells_with_cids_annotation	marker_gene_evidence	marker gene evidence	empty	text		List of gene names explicitly used as evidence for this cell annotation. Each gene MUST be included in the matrix of the AnnData/Seurat file.
+Siletti_all_non_neuronal_cells_with_cids_annotation	synonyms	synonyms	empty	text		This field denotes any free-text term of a biological entity which the author associates as synonymous with the biological entity listed in the field 'cell_label'.In the case whereby no synonyms exist, the authors MAY leave this as blank, which is encoded as 'NA'. However, this field is NOT OPTIONAL.
 Siletti_all_non_neuronal_cells_with_cids_annotation	Cluster ID	Cluster ID	empty	text		
 Siletti_all_non_neuronal_cells_with_cids_labelset	name	name		word	primary	
-Siletti_all_non_neuronal_cells_with_cids_labelset	description	description	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	rank	rank	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	annotation_method	annotation method	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_name	automated annotation algorithm name	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_version	automated annotation algorithm version	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_repo_url	automated annotation algorithm repo url	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_reference_location	automated annotation reference location	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_labelset	description	description	empty	text		Some text describing what types of cell annotation this annotation key is used to record
+Siletti_all_non_neuronal_cells_with_cids_labelset	rank	rank	empty	text		A number indicating relative granularity with 0 being the most specific.  Use this where a single dataset has multiple keys that are used consistently to record annotations and different levels of granularity.
+Siletti_all_non_neuronal_cells_with_cids_labelset	annotation_method	annotation method	empty	text		The method used for creating the cell annotations. This MUST be one of the following strings: `'algorithmic'`, `'manual'`, or `'both'`
+Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_name	automated annotation algorithm name	empty	text		The name of the algorithm used. It MUST be a string of the algorithm's name.
+Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_version	automated annotation algorithm version	empty	text		The version of the algorithm used (if applicable). It MUST be a string of the algorithm's version, which is typically in the format '[MAJOR].[MINOR]', but other versioning systems are permitted (based on the algorithm's versioning).
+Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_algorithm_repo_url	automated annotation algorithm repo url	empty	text		This field denotes the URL of the version control repository associated with the algorithm used (if applicable). It MUST be a string of a valid URL.
+Siletti_all_non_neuronal_cells_with_cids_labelset	automated_annotation_reference_location	automated annotation reference location	empty	text		This field denotes a valid URL of the annotated dataset that was the source of annotated reference data. This MUST be a string of a valid URL. The concept of a 'reference' specifically refers to 'annotation transfer' algorithms, whereby a 'reference' dataset is used to transfer cell annotations to the 'query' dataset.
 Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_schema_version	cellannotation_schema_version		word	primary	
-Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_timestamp	cellannotation timestamp	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_version	cellannotation version	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_url	cellannotation url	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_metadata	author_name	author name	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_metadata	author_contact	author contact	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_metadata	orcid	orcid	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_timestamp	cellannotation timestamp	empty	text		The timestamp of all cell annotations published (per dataset). This MUST be a string in the format `'%yyyy-%mm-%dd %hh:%mm:%ss'`
+Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_version	cellannotation version	empty	text		The version for all cell annotations published (per dataset). This MUST be a string. The recommended versioning format is `'[MAJOR].[MINOR].[PATCH]'` as defined by Semantic Versioning 2.0.0, https://semver.org/
+Siletti_all_non_neuronal_cells_with_cids_metadata	cellannotation_url	cellannotation url	empty	text		A persistent URL of all cell annotations published (per dataset).
+Siletti_all_non_neuronal_cells_with_cids_metadata	author_name	author name	empty	text		This MUST be a string in the format `[FIRST NAME] [LAST NAME]`
+Siletti_all_non_neuronal_cells_with_cids_metadata	author_contact	author contact	empty	text		This MUST be a valid email address of the author
+Siletti_all_non_neuronal_cells_with_cids_metadata	orcid	orcid	empty	text		This MUST be a valid ORCID for the author
 Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	target_node_accession	target_node_accession		word	primary	
-Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	transferred_cell_label	transferred cell label	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	source_taxonomy	source taxonomy	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	source_node_accession	source node accession	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	transferred_cell_label	transferred cell label	empty	text		Transferred cell label
+Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	source_taxonomy	source taxonomy	empty	text		PURL of source taxonomy
+Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	source_node_accession	source node accession	empty	text		accession of node that label was transferred from
 Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	algorithm_name	algorithm name	empty	text		
-Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	comment	comment	empty	text		
+Siletti_all_non_neuronal_cells_with_cids_annotation_transfer	comment	comment	empty	text		Free text comment on annotation transfer
