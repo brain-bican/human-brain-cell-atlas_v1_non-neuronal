@@ -1,2 +1,2 @@
-cellannotation_schema_version	cellannotation_timestamp	cellannotation_version	cellannotation_url	author_name	author_contact	orcid
-						
+index	author_name	author_contact	orcid	author_list	matrix_file_id	cellannotation_schema_version	cellannotation_timestamp	cellannotation_version	cellannotation_url
+1			https://orcid.org/0000-0001-7620-8973		CellXGene_dataset:b165f033-9dec-468a-9248-802fc6902a74				
