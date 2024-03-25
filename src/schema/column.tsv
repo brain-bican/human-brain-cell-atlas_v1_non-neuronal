@@ -17,10 +17,9 @@ datatype	condition		empty	datatype_condition
 datatype	description		empty	text		a description of this datatype
 datatype	transform		empty	text		data type transformation
 datatype	structure		empty	text		data type structure
-datatype	SQLite type		empty	sql_type		the SQL type for representing this data in SQLite
-datatype	PostgreSQL type		empty	sql_type		the SQL type for representing this data in PostgreSQL
+datatype	SQL type		empty	sql_type		the SQLite type for representing this data
 datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data
-annotation	cell_set_accession	cell set accession		word	primary	An identifier that can be used to consistently refer to the set of cells being annotated, even if the cell_label changes.
+annotation	cell_set_accession	cell set accession		text	primary	An identifier that can be used to consistently refer to the set of cells being annotated, even if the cell_label changes.
 annotation	cell_label	cell label	empty	text		This denotes any free-text term which the author uses to annotate cells, i.e. the preferred cell label name used by the author. Abbreviations are exceptable in this field; refer to 'cell_fullname' for related details.  Certain key words have been reserved: - `'doublets'` is reserved for encoding cells defined as doublets based on some computational analysis - `'junk'` is reserved for encoding cells that failed sequencing for some reason, e.g. few genes detected, high fraction of mitochondrial reads - `'unknown'` is explicitly reserved for unknown or 'author does not know' - `'NA'` is incomplete, i.e. no cell annotation was provided
 annotation	cell_fullname	cell fullname	empty	text		This MUST be the full-length name for the biological entity listed in `cell_label` by the author. (If the value in `cell_label` is the full-length term, this field will contain the same value.)  NOTE: any reserved word used in the field 'cell_label' MUST match the value of this field.   EXAMPLE 1: Given the matching terms 'LC' and 'luminal cell' used to annotate the same cell(s), then users could use either terms as values in the field 'cell_label'. However, the abbreviation 'LC' CANNOT be provided in the field 'cell_fullname'.   EXAMPLE 2: Either the abbreviation 'AC' or the full-length term intended by the author 'GABAergic amacrine cell' MAY be placed in the field 'cell_label', but as full-length term naming this biological entity, 'GABAergic amacrine cell' MUST be placed in the field 'cell_fullname'.
 annotation	parent_cell_set_accession	parent cell set accession	empty	text		
@@ -33,7 +32,7 @@ annotation	rationale_dois	rationale dois	empty	text		A list of valid publication
 annotation	marker_gene_evidence	marker gene evidence	empty	text		List of gene names explicitly used as evidence for this cell annotation. Each gene MUST be included in the matrix of the AnnData/Seurat file. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	synonyms	synonyms	empty	text		This field denotes any free-text term of a biological entity which the author associates as synonymous with the biological entity listed in the field 'cell_label'. In the case whereby no synonyms exist, the authors MAY leave this as blank, which is encoded as 'NA'. However, this field is NOT OPTIONAL. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	Cluster ID	Cluster ID	empty	text		
-labelset	name	name		word	primary	
+labelset	name	name		text	primary	
 labelset	description	description	empty	text		Some text describing what types of cell annotation this annotation key is used to record
 labelset	rank	rank	empty	text		A number indicating relative granularity with 0 being the most specific.  Use this where a single dataset has multiple keys that are used consistently to record annotations and different levels of granularity.
 labelset	annotation_method	annotation method	empty	text		The method used for creating the cell annotations. This MUST be one of the following strings: `'algorithmic'`, `'manual'`, or `'both'`
@@ -41,7 +40,7 @@ labelset	automated_annotation_algorithm_name	automated annotation algorithm name
 labelset	automated_annotation_algorithm_version	automated annotation algorithm version	empty	text		The version of the algorithm used (if applicable). It MUST be a string of the algorithm's version, which is typically in the format '[MAJOR].[MINOR]', but other versioning systems are permitted (based on the algorithm's versioning).
 labelset	automated_annotation_algorithm_repo_url	automated annotation algorithm repo url	empty	text		This field denotes the URL of the version control repository associated with the algorithm used (if applicable). It MUST be a string of a valid URL.
 labelset	automated_annotation_reference_location	automated annotation reference location	empty	text		This field denotes a valid URL of the annotated dataset that was the source of annotated reference data.  This MUST be a string of a valid URL. The concept of a 'reference' specifically refers to 'annotation transfer' algorithms, whereby a 'reference' dataset is used to transfer cell annotations to the 'query' dataset.
-metadata	index	index		word	primary	
+metadata	index	index		text	primary	
 metadata	author_name	author name	empty	text		This MUST be a string in the format `[FIRST NAME] [LAST NAME]`
 metadata	author_contact	author contact	empty	text		This MUST be a valid email address of the author
 metadata	orcid	orcid	empty	text		This MUST be a valid ORCID for the author
@@ -51,7 +50,7 @@ metadata	cellannotation_schema_version	cellannotation schema version	empty	text	
 metadata	cellannotation_timestamp	cellannotation timestamp	empty	text		The timestamp of all cell annotations published (per dataset). This MUST be a string in the format `'%yyyy-%mm-%dd %hh:%mm:%ss'`
 metadata	cellannotation_version	cellannotation version	empty	text		The version for all cell annotations published (per dataset). This MUST be a string. The recommended versioning format is `'[MAJOR].[MINOR].[PATCH]'` as defined by Semantic Versioning 2.0.0, https://semver.org/
 metadata	cellannotation_url	cellannotation url	empty	text		A persistent URL of all cell annotations published (per dataset).
-annotation_transfer	target_node_accession	target_node_accession		word	primary	
+annotation_transfer	target_node_accession	target_node_accession		text	primary	
 annotation_transfer	transferred_cell_label	transferred cell label	empty	text		Transferred cell label
 annotation_transfer	source_taxonomy	source taxonomy	empty	text		PURL of source taxonomy
 annotation_transfer	source_node_accession	source node accession	empty	text		accession of node that label was transferred from
