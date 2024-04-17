@@ -56,3 +56,8 @@ annotation_transfer	source_taxonomy	source taxonomy	empty	text		PURL of source t
 annotation_transfer	source_node_accession	source node accession	empty	text		accession of node that label was transferred from
 annotation_transfer	algorithm_name	algorithm name	empty	text		
 annotation_transfer	comment	comment	empty	text		Free text comment on annotation transfer
+review	target_node_accession	target node accession	empty	text		
+review	time	time	empty	text		
+review	name	name	empty	text		
+review	review	review	empty	text		
+review	explanation	explanation	empty	text		

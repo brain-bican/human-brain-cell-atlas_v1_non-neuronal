@@ -6,3 +6,4 @@ annotation	curation_tables/annotation.tsv		ols_form
 labelset	curation_tables/labelset.tsv			
 metadata	curation_tables/metadata.tsv			
 annotation_transfer	curation_tables/annotation_transfer.tsv			
+review	curation_tables/review.tsv			
