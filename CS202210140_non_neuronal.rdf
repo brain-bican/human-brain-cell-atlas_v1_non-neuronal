@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xml:base="https://purl.brain-bican.org/ontology/AIT_CS202210140/"
+   xmlns:CAS="https://cellular-semantics.sanger.ac.uk/ontology/CAS/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="CS202210140_33">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>OPC_32</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "32"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_467"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_21">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Vsmc_20</rdfs:label>
+    <CAS:cell_ontology_term>smooth muscle cell of the brain vasculature</CAS:cell_ontology_term>
+    <CAS:rationale>Inferred from expression of: RGS5 (Cho et al., 2003); PDGFRB (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)</CAS:rationale>
+    <CAS:rationale_dois>https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>PDGFRB|ACTA2|MYH11</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "20"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N9c6328c69f764626b1c37ba654e32d2a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_34">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>OPC_33</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "33"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_467"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_68">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_67</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "67"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_41">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_40</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "40"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cellular-semantics.sanger.ac.uk/ontology/CAS/HBCA">
+    <CAS:author_name>Kimberly Siletti</CAS:author_name>
+    <CAS:labelsets rdf:resource="Cluster"/>
+    <CAS:labelsets rdf:resource="supercluster_term"/>
+    <CAS:annotations rdf:resource="CS202210140_5"/>
+    <CAS:annotations rdf:resource="CS202210140_6"/>
+    <CAS:annotations rdf:resource="CS202210140_7"/>
+    <CAS:annotations rdf:resource="CS202210140_8"/>
+    <CAS:annotations rdf:resource="CS202210140_9"/>
+    <CAS:annotations rdf:resource="CS202210140_10"/>
+    <CAS:annotations rdf:resource="CS202210140_11"/>
+    <CAS:annotations rdf:resource="CS202210140_12"/>
+    <CAS:annotations rdf:resource="CS202210140_13"/>
+    <CAS:annotations rdf:resource="CS202210140_14"/>
+    <CAS:annotations rdf:resource="CS202210140_15"/>
+    <CAS:annotations rdf:resource="CS202210140_16"/>
+    <CAS:annotations rdf:resource="CS202210140_17"/>
+    <CAS:annotations rdf:resource="CS202210140_18"/>
+    <CAS:annotations rdf:resource="CS202210140_19"/>
+    <CAS:annotations rdf:resource="CS202210140_20"/>
+    <CAS:annotations rdf:resource="CS202210140_21"/>
+    <CAS:annotations rdf:resource="CS202210140_22"/>
+    <CAS:annotations rdf:resource="CS202210140_23"/>
+    <CAS:annotations rdf:resource="CS202210140_24"/>
+    <CAS:annotations rdf:resource="CS202210140_25"/>
+    <CAS:annotations rdf:resource="CS202210140_26"/>
+    <CAS:annotations rdf:resource="CS202210140_27"/>
+    <CAS:annotations rdf:resource="CS202210140_28"/>
+    <CAS:annotations rdf:resource="CS202210140_29"/>
+    <CAS:annotations rdf:resource="CS202210140_30"/>
+    <CAS:annotations rdf:resource="CS202210140_31"/>
+    <CAS:annotations rdf:resource="CS202210140_32"/>
+    <CAS:annotations rdf:resource="CS202210140_33"/>
+    <CAS:annotations rdf:resource="CS202210140_34"/>
+    <CAS:annotations rdf:resource="CS202210140_35"/>
+    <CAS:annotations rdf:resource="CS202210140_36"/>
+    <CAS:annotations rdf:resource="CS202210140_37"/>
+    <CAS:annotations rdf:resource="CS202210140_38"/>
+    <CAS:annotations rdf:resource="CS202210140_39"/>
+    <CAS:annotations rdf:resource="CS202210140_40"/>
+    <CAS:annotations rdf:resource="CS202210140_41"/>
+    <CAS:annotations rdf:resource="CS202210140_42"/>
+    <CAS:annotations rdf:resource="CS202210140_43"/>
+    <CAS:annotations rdf:resource="CS202210140_44"/>
+    <CAS:annotations rdf:resource="CS202210140_45"/>
+    <CAS:annotations rdf:resource="CS202210140_46"/>
+    <CAS:annotations rdf:resource="CS202210140_47"/>
+    <CAS:annotations rdf:resource="CS202210140_48"/>
+    <CAS:annotations rdf:resource="CS202210140_49"/>
+    <CAS:annotations rdf:resource="CS202210140_50"/>
+    <CAS:annotations rdf:resource="CS202210140_51"/>
+    <CAS:annotations rdf:resource="CS202210140_52"/>
+    <CAS:annotations rdf:resource="CS202210140_53"/>
+    <CAS:annotations rdf:resource="CS202210140_54"/>
+    <CAS:annotations rdf:resource="CS202210140_55"/>
+    <CAS:annotations rdf:resource="CS202210140_56"/>
+    <CAS:annotations rdf:resource="CS202210140_57"/>
+    <CAS:annotations rdf:resource="CS202210140_58"/>
+    <CAS:annotations rdf:resource="CS202210140_59"/>
+    <CAS:annotations rdf:resource="CS202210140_60"/>
+    <CAS:annotations rdf:resource="CS202210140_61"/>
+    <CAS:annotations rdf:resource="CS202210140_62"/>
+    <CAS:annotations rdf:resource="CS202210140_63"/>
+    <CAS:annotations rdf:resource="CS202210140_64"/>
+    <CAS:annotations rdf:resource="CS202210140_65"/>
+    <CAS:annotations rdf:resource="CS202210140_66"/>
+    <CAS:annotations rdf:resource="CS202210140_67"/>
+    <CAS:annotations rdf:resource="CS202210140_68"/>
+    <CAS:annotations rdf:resource="CS202210140_69"/>
+    <CAS:annotations rdf:resource="CS202210140_70"/>
+    <CAS:annotations rdf:resource="CS202210140_71"/>
+    <CAS:annotations rdf:resource="CS202210140_72"/>
+    <CAS:annotations rdf:resource="CS202210140_73"/>
+    <CAS:annotations rdf:resource="CS202210140_74"/>
+    <CAS:annotations rdf:resource="CS202210140_75"/>
+    <CAS:annotations rdf:resource="CS202210140_76"/>
+    <CAS:annotations rdf:resource="CS202210140_77"/>
+    <CAS:annotations rdf:resource="CS202210140_78"/>
+    <CAS:annotations rdf:resource="CS202210140_79"/>
+    <CAS:annotations rdf:resource="CS202210140_80"/>
+    <CAS:annotations rdf:resource="CS202210140_81"/>
+    <CAS:annotations rdf:resource="CS202210140_82"/>
+    <CAS:annotations rdf:resource="CS202210140_83"/>
+    <CAS:annotations rdf:resource="CS202210140_464"/>
+    <CAS:annotations rdf:resource="CS202210140_465"/>
+    <CAS:annotations rdf:resource="CS202210140_466"/>
+    <CAS:annotations rdf:resource="CS202210140_467"/>
+    <CAS:annotations rdf:resource="CS202210140_468"/>
+    <CAS:annotations rdf:resource="CS202210140_469"/>
+    <CAS:annotations rdf:resource="CS202210140_470"/>
+    <CAS:annotations rdf:resource="CS202210140_471"/>
+    <CAS:annotations rdf:resource="CS202210140_472"/>
+    <CAS:annotations rdf:resource="CS202210140_493"/>
+    <CAS:matrix_file_id>CellXGene_dataset:b165f033-9dec-468a-9248-802fc6902a74</CAS:matrix_file_id>
+    <CAS:orcid>https://orcid.org/0000-0001-7620-8973</CAS:orcid>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/GeneralCellAnnotationOpenStandard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_48">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_47</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "47"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_40">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_39</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "39"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_17">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendVC_16</rdfs:label>
+    <CAS:cell_ontology_term>capillary endothelial cell</CAS:cell_ontology_term>
+    <CAS:author_annotation_fields>{"Cluster ID": "16"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N173f061eae8a4d87b804ff6dd844766a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_61">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_60</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "60"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_38">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_37</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "37"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_31">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_30</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "30"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_468">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Committed oligodendrocyte precursor</rdfs:label>
+    <CAS:cell_ontology_term>differentiation-committed oligodendrcyte precursor</CAS:cell_ontology_term>
+    <CAS:marker_gene_evidence>SOX10|GPR17</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N3383d73664ba4a83a4cc5b3147179178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_13">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_12</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "12"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_32">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_31</rdfs:label>
+    <CAS:cell_ontology_term>arachnoid barrier cell</CAS:cell_ontology_term>
+    <CAS:rationale_dois>https://doi.org/10.1016/j.devcel.2020.06.009</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>AQP4|GDF10|GABRG3|WIF1|LGR6</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "31"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N6859ab54b66a410787e97e34c387c27a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_29">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_28</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "28"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_12">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_11</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "11"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N173f061eae8a4d87b804ff6dd844766a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_467">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Oligodendrocyte precursor</rdfs:label>
+    <CAS:cell_ontology_term>oligodendrocyte precursor cell</CAS:cell_ontology_term>
+    <CAS:rationale>Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)</CAS:rationale>
+    <CAS:rationale_dois>DOI:10.1126/science.adf6812</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>PDGFRA|SOX10</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nf5a2bb983efe4d80a46e869dde3304e5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_7">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_6</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "6"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_6">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_5</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "5"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_66">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_65</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "65"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_45">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_44</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "44"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_39">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_38</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "38"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_472">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Choroid plexus</rdfs:label>
+    <CAS:cell_ontology_term>choroid plexus epithelial cell</CAS:cell_ontology_term>
+    <CAS:marker_gene_evidence>FOXJ1|TTR</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Neaed29f32c1a4ccca3ddcc42c6620d51"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6859ab54b66a410787e97e34c387c27a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4023097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_22">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Per_21</rdfs:label>
+    <CAS:cell_ontology_term>pericyte</CAS:cell_ontology_term>
+    <CAS:rationale>Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)</CAS:rationale>
+    <CAS:rationale_dois>https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>PDGFRB|CSPG4</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "21"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N7fe4be677f8e47b78984de6ff627c903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_469">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Oligodendrocyte</rdfs:label>
+    <CAS:cell_ontology_term>oligodendrocyte</CAS:cell_ontology_term>
+    <CAS:rationale>Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)</CAS:rationale>
+    <CAS:rationale_dois>DOI:10.1126/science.adf6812</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>SOX10|PLP1</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nb4a04f00a86748148482cfa227cc63ca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_24">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Per_23</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "23"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_25">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_24</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "24"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_81">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_80</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "80"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_52">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Bgl_51</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "51"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_493"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_79">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_78</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "78"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_9">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_8</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "8"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4a04f00a86748148482cfa227cc63ca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_5">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_4</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "4"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_55">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_54</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "54"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_76">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_75</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "75"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_71">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_70</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "70"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_82">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_81</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "81"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_72">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_71</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "71"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_63">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_62</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "62"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_465">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Vascular</rdfs:label>
+    <CAS:cell_ontology_term>endothelial cell of vascular tree</CAS:cell_ontology_term>
+    <CAS:rationale>Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)</CAS:rationale>
+    <CAS:rationale_dois>DOI:10.1126/science.adf6812</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>CLDN5|ACTA2</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N25d7db7acdd64a948108a53b5c3eb0c8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_30">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_29</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "29"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_23">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Per_22</rdfs:label>
+    <CAS:cell_ontology_term>pericyte</CAS:cell_ontology_term>
+    <CAS:rationale>Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)</CAS:rationale>
+    <CAS:rationale_dois>https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>PDGFRB|CSPG4</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "22"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N916cdb2e9f2e4ec69a47c1cb05bb4a35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Cluster">
+    <rdfs:label>Cluster</rdfs:label>
+    <CAS:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CAS:rank>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/Labelset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_44">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_43</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "43"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_78">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_77</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "77"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_83">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_82</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "82"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7fe4be677f8e47b78984de6ff627c903">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_493">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Bergmann glia</rdfs:label>
+    <CAS:cell_ontology_term>Bergmann glial cell</CAS:cell_ontology_term>
+    <CAS:rationale>GDF10 marks Bergmann glia in the mouse Other markers from adult human data</CAS:rationale>
+    <CAS:marker_gene_evidence>AQP4|GDF10|GABRG3|WIF1|LGR6</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N9d63c68bae2c4c59a7bc18b0a71f4743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_58">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_57</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "57"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_54">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_53</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "53"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3383d73664ba4a83a4cc5b3147179178">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4023059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_77">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_76</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "76"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_19">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendA_18</rdfs:label>
+    <CAS:cell_ontology_term>endothelial cell of artery</CAS:cell_ontology_term>
+    <CAS:marker_gene_evidence>FLT1|CLDN5|PECAM1|BMX|VEGFC|JUNB</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "18"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nede41ab536694a22a0069630c4cd6060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_470">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Astrocyte</rdfs:label>
+    <CAS:cell_ontology_term>astrocyte</CAS:cell_ontology_term>
+    <CAS:rationale>Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)</CAS:rationale>
+    <CAS:rationale_dois>DOI:10.1126/science.adf6812</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>AQP4</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N83269d1374364090a19ec4de8c8aaaed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_50">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_49</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "49"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_64">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_63</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "63"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_80">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Chrp_79</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "79"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_472"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_49">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_48</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "48"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neaed29f32c1a4ccca3ddcc42c6620d51">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000706"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_471">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Ependymal</rdfs:label>
+    <CAS:cell_ontology_term>ependymal cell</CAS:cell_ontology_term>
+    <CAS:marker_gene_evidence>FOXJ1</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nc1ac860d270b45e68cef9b232edf247f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_16">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendC_15</rdfs:label>
+    <CAS:cell_ontology_term>capillary endothelial cell</CAS:cell_ontology_term>
+    <CAS:rationale>BMX = large artery</CAS:rationale>
+    <CAS:marker_gene_evidence>FLT1|CLDN5|PECAM1|MFSD2A</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "15"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N4d4c181924ca466990ac7888a2b52573"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9c6328c69f764626b1c37ba654e32d2a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_11">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_10</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "10"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_53">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_52</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "52"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_20">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Vsmc_19</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "19"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_43">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_42</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "42"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_36">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>OPC_35</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "35"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_467"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_62">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_61</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "61"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_69">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_68</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "68"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_10">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_9</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "9"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_47">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_46</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "46"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_73">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_72</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "72"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_51">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_50</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "50"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_464">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Microglia</rdfs:label>
+    <CAS:cell_ontology_term>microglia</CAS:cell_ontology_term>
+    <CAS:rationale>Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)</CAS:rationale>
+    <CAS:rationale_dois>DOI:10.1126/science.adf6812</CAS:rationale_dois>
+    <CAS:marker_gene_evidence>PTPRC</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N6c05016aaea04684bc211ae6579963b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0d0e2343f3ae483e971cbaac9147a510">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_18">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendV_17</rdfs:label>
+    <CAS:cell_ontology_term>vein endothelial cell</CAS:cell_ontology_term>
+    <CAS:author_annotation_fields>{"Cluster ID": "17"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N0d0e2343f3ae483e971cbaac9147a510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_14">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendPLVAP_13</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "13"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_75">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_74</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "74"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf5a2bb983efe4d80a46e869dde3304e5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_59">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_58</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "58"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_65">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_64</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "64"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_57">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_56</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "56"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_26">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_25</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "25"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_35">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>OPC_34</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "34"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_467"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_74">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_73</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "73"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_27">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_26</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "26"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9d63c68bae2c4c59a7bc18b0a71f4743">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_70">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_69</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "69"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_46">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Oligo_45</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "45"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_469"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_8">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Mgl_7</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "7"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_464"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_60">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_59</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "59"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N916cdb2e9f2e4ec69a47c1cb05bb4a35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_28">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Fbl_27</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "27"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_466"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1ac860d270b45e68cef9b232edf247f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000065"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_37">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>OPC_36</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "36"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_467"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d4c181924ca466990ac7888a2b52573">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002144"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c05016aaea04684bc211ae6579963b6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_42">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>COP_41</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "41"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_468"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_466">
+    <CAS:has_labelset rdf:resource="supercluster_term"/>
+    <rdfs:label>Fibroblast</rdfs:label>
+    <CAS:cell_ontology_term>fibroblast</CAS:cell_ontology_term>
+    <CAS:marker_gene_evidence>LUM</CAS:marker_gene_evidence>
+    <CAS:author_annotation_fields>{"Cluster ID": "None"}</CAS:author_annotation_fields>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nabcfa9e06a184c6a8bf99256f44f597d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="supercluster_term">
+    <rdfs:label>supercluster_term</rdfs:label>
+    <CAS:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CAS:rank>
+    <rdf:type rdf:resource="https://cellular-semantics.sanger.ac.uk/ontology/CAS/Labelset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_56">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Astro_55</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "55"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_67">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>Epen_66</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "66"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_471"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nabcfa9e06a184c6a8bf99256f44f597d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000057"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N25d7db7acdd64a948108a53b5c3eb0c8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="CS202210140_15">
+    <CAS:has_labelset rdf:resource="Cluster"/>
+    <rdfs:label>VendAC_14</rdfs:label>
+    <CAS:author_annotation_fields>{"Cluster ID": "14"}</CAS:author_annotation_fields>
+    <obo:RO_0015003 rdf:resource="CS202210140_465"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nede41ab536694a22a0069630c4cd6060">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1000413"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83269d1374364090a19ec4de8c8aaaed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
+  </rdf:Description>
+</rdf:RDF>
