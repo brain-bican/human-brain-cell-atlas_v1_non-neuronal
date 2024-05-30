@@ -10,7 +10,7 @@
 #
 # See README-editors.md for more details.
 
-IMAGE=${IMAGE:-taxonomy-development-tools:1.0.1}
+IMAGE=${IMAGE:-taxonomy-development-tools:1.0.2}
 TDT_DEBUG=${TDT_DEBUG:-no}
 
 TIMECMD=
