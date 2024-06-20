@@ -31,7 +31,6 @@ annotation	rationale	rationale	empty	text		The free-text rationale which users p
 annotation	rationale_dois	rationale dois	empty	text		A list of valid publication DOIs cited by the author to support or provide justification/evidence/context for 'cell_label'. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	marker_gene_evidence	marker gene evidence	empty	text		List of gene names explicitly used as evidence for this cell annotation. Each gene MUST be included in the matrix of the AnnData/Seurat file. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	synonyms	synonyms	empty	text		This field denotes any free-text term of a biological entity which the author associates as synonymous with the biological entity listed in the field 'cell_label'. In the case whereby no synonyms exist, the authors MAY leave this as blank, which is encoded as 'NA'. However, this field is NOT OPTIONAL. Multiple values can be concatenated by using the '|' character as a delimiter.
-annotation	Cluster ID	Cluster ID	empty	text		
 labelset	name	name		text	primary	
 labelset	description	description	empty	text		Some text describing what types of cell annotation this annotation key is used to record
 labelset	rank	rank	empty	text		A number indicating relative granularity with 0 being the most specific.  Use this where a single dataset has multiple keys that are used consistently to record annotations and different levels of granularity.
@@ -46,6 +45,8 @@ metadata	author_contact	author contact	empty	text		This MUST be a valid email ad
 metadata	orcid	orcid	empty	text		This MUST be a valid ORCID for the author
 metadata	author_list	author list	empty	text		
 metadata	matrix_file_id	matrix file id	empty	text		A resolvable ID for a cell by gene matrix file in the form namespace:accession, e.g. CellXGene_dataset:8e10f1c4-8e98-41e5-b65f-8cd89a887122.  Please see https://github.com/cellannotation/cell-annotation-schema/registry/registry.json for supported namespaces.
+metadata	title	title	empty	text		
+metadata	description	description	empty	text		
 metadata	cellannotation_schema_version	cellannotation schema version	empty	text		The schema version, the cell annotation open standard. Current version MUST follow 0.1.0 This versioning MUST follow the format `'[MAJOR].[MINOR].[PATCH]'` as defined by Semantic Versioning 2.0.0, https://semver.org/
 metadata	cellannotation_timestamp	cellannotation timestamp	empty	text		The timestamp of all cell annotations published (per dataset). This MUST be a string in the format `'%yyyy-%mm-%dd %hh:%mm:%ss'`
 metadata	cellannotation_version	cellannotation version	empty	text		The version for all cell annotations published (per dataset). This MUST be a string. The recommended versioning format is `'[MAJOR].[MINOR].[PATCH]'` as defined by Semantic Versioning 2.0.0, https://semver.org/
@@ -57,7 +58,9 @@ annotation_transfer	source_node_accession	source node accession	empty	text		acce
 annotation_transfer	algorithm_name	algorithm name	empty	text		
 annotation_transfer	comment	comment	empty	text		Free text comment on annotation transfer
 review	target_node_accession	target node accession	empty	text		
-review	datestamp	time	empty	text		
-review	reviewer	name	empty	text		
+review	datestamp	datestamp	empty	text		
+review	reviewer	reviewer	empty	text		
 review	review	review	empty	text		
 review	explanation	explanation	empty	text		
+flags	accession_id	accession_id		text	primary	
+flags	flag	flag	empty	text		

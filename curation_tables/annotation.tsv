@@ -1,90 +1,90 @@
-cell_set_accession	cell_label	cell_fullname	parent_cell_set_accession	parent_cell_set_name	labelset	cell_ontology_term_id	cell_ontology_term	rationale	rationale_dois	marker_gene_evidence	synonyms	Cluster ID
-CS202210140_5	Mgl_4		CS202210140_464	Microglia	Cluster							4
-CS202210140_6	Mgl_5		CS202210140_464	Microglia	Cluster							5
-CS202210140_7	Mgl_6		CS202210140_464	Microglia	Cluster							6
-CS202210140_8	Mgl_7		CS202210140_464	Microglia	Cluster							7
-CS202210140_9	Mgl_8		CS202210140_464	Microglia	Cluster							8
-CS202210140_10	Mgl_9		CS202210140_464	Microglia	Cluster							9
-CS202210140_11	Mgl_10		CS202210140_464	Microglia	Cluster							10
-CS202210140_12	Mgl_11		CS202210140_464	Microglia	Cluster							11
-CS202210140_13	Mgl_12		CS202210140_464	Microglia	Cluster							12
-CS202210140_14	VendPLVAP_13		CS202210140_465	Vascular	Cluster							13
-CS202210140_15	VendAC_14		CS202210140_465	Vascular	Cluster							14
-CS202210140_16	VendC_15		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell	BMX = large artery		FLT1|CLDN5|PECAM1|MFSD2A		15
-CS202210140_17	VendVC_16		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell					16
-CS202210140_18	VendV_17		CS202210140_465	Vascular	Cluster	CL:0002543	vein endothelial cell					17
-CS202210140_19	VendA_18		CS202210140_465	Vascular	Cluster	CL:1000413	endothelial cell of artery			FLT1|CLDN5|PECAM1|BMX|VEGFC|JUNB		18
-CS202210140_20	Vsmc_19		CS202210140_465	Vascular	Cluster							19
-CS202210140_21	Vsmc_20		CS202210140_465	Vascular	Cluster	CL:0002590	smooth muscle cell of the brain vasculature	Inferred from expression of: RGS5 (Cho et al., 2003); PDGFRB (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200	PDGFRB|ACTA2|MYH11		20
-CS202210140_22	Per_21		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		21
-CS202210140_23	Per_22		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		22
-CS202210140_24	Per_23		CS202210140_465	Vascular	Cluster							23
-CS202210140_25	Fbl_24		CS202210140_466	Fibroblast	Cluster							24
-CS202210140_26	Fbl_25		CS202210140_466	Fibroblast	Cluster							25
-CS202210140_27	Fbl_26		CS202210140_466	Fibroblast	Cluster							26
-CS202210140_28	Fbl_27		CS202210140_466	Fibroblast	Cluster							27
-CS202210140_29	Fbl_28		CS202210140_466	Fibroblast	Cluster							28
-CS202210140_30	Fbl_29		CS202210140_466	Fibroblast	Cluster							29
-CS202210140_31	Fbl_30		CS202210140_466	Fibroblast	Cluster							30
-CS202210140_32	Fbl_31		CS202210140_466	Fibroblast	Cluster	CL:4023097	arachnoid barrier cell		https://doi.org/10.1016/j.devcel.2020.06.009	AQP4|GDF10|GABRG3|WIF1|LGR6		31
-CS202210140_33	OPC_32		CS202210140_467	Oligodendrocyte precursor	Cluster							32
-CS202210140_34	OPC_33		CS202210140_467	Oligodendrocyte precursor	Cluster							33
-CS202210140_35	OPC_34		CS202210140_467	Oligodendrocyte precursor	Cluster							34
-CS202210140_36	OPC_35		CS202210140_467	Oligodendrocyte precursor	Cluster							35
-CS202210140_37	OPC_36		CS202210140_467	Oligodendrocyte precursor	Cluster							36
-CS202210140_38	COP_37		CS202210140_468	Committed oligodendrocyte precursor	Cluster							37
-CS202210140_39	COP_38		CS202210140_468	Committed oligodendrocyte precursor	Cluster							38
-CS202210140_40	COP_39		CS202210140_468	Committed oligodendrocyte precursor	Cluster							39
-CS202210140_41	Oligo_40		CS202210140_469	Oligodendrocyte	Cluster							40
-CS202210140_42	COP_41		CS202210140_468	Committed oligodendrocyte precursor	Cluster							41
-CS202210140_43	COP_42		CS202210140_468	Committed oligodendrocyte precursor	Cluster							42
-CS202210140_44	COP_43		CS202210140_468	Committed oligodendrocyte precursor	Cluster							43
-CS202210140_45	Oligo_44		CS202210140_469	Oligodendrocyte	Cluster							44
-CS202210140_46	Oligo_45		CS202210140_469	Oligodendrocyte	Cluster							45
-CS202210140_47	Oligo_46		CS202210140_469	Oligodendrocyte	Cluster							46
-CS202210140_48	Oligo_47		CS202210140_469	Oligodendrocyte	Cluster							47
-CS202210140_49	Oligo_48		CS202210140_469	Oligodendrocyte	Cluster							48
-CS202210140_50	Oligo_49		CS202210140_469	Oligodendrocyte	Cluster							49
-CS202210140_51	Oligo_50		CS202210140_469	Oligodendrocyte	Cluster							50
-CS202210140_52	Bgl_51		CS202210140_493	Bergmann glia	Cluster							51
-CS202210140_53	Astro_52		CS202210140_470	Astrocyte	Cluster							52
-CS202210140_54	Astro_53		CS202210140_470	Astrocyte	Cluster							53
-CS202210140_55	Astro_54		CS202210140_470	Astrocyte	Cluster							54
-CS202210140_56	Astro_55		CS202210140_470	Astrocyte	Cluster							55
-CS202210140_57	Astro_56		CS202210140_470	Astrocyte	Cluster							56
-CS202210140_58	Astro_57		CS202210140_470	Astrocyte	Cluster							57
-CS202210140_59	Astro_58		CS202210140_470	Astrocyte	Cluster							58
-CS202210140_60	Astro_59		CS202210140_470	Astrocyte	Cluster							59
-CS202210140_61	Astro_60		CS202210140_470	Astrocyte	Cluster							60
-CS202210140_62	Astro_61		CS202210140_470	Astrocyte	Cluster							61
-CS202210140_63	Astro_62		CS202210140_470	Astrocyte	Cluster							62
-CS202210140_64	Astro_63		CS202210140_470	Astrocyte	Cluster							63
-CS202210140_65	Astro_64		CS202210140_470	Astrocyte	Cluster							64
-CS202210140_66	Epen_65		CS202210140_471	Ependymal	Cluster							65
-CS202210140_67	Epen_66		CS202210140_471	Ependymal	Cluster							66
-CS202210140_68	Epen_67		CS202210140_471	Ependymal	Cluster							67
-CS202210140_69	Epen_68		CS202210140_471	Ependymal	Cluster							68
-CS202210140_70	Epen_69		CS202210140_471	Ependymal	Cluster							69
-CS202210140_71	Epen_70		CS202210140_471	Ependymal	Cluster							70
-CS202210140_72	Epen_71		CS202210140_471	Ependymal	Cluster							71
-CS202210140_73	Epen_72		CS202210140_471	Ependymal	Cluster							72
-CS202210140_74	Epen_73		CS202210140_471	Ependymal	Cluster							73
-CS202210140_75	Epen_74		CS202210140_471	Ependymal	Cluster							74
-CS202210140_76	COP_75		CS202210140_468	Committed oligodendrocyte precursor	Cluster							75
-CS202210140_77	Chrp_76		CS202210140_472	Choroid plexus	Cluster							76
-CS202210140_78	Chrp_77		CS202210140_472	Choroid plexus	Cluster							77
-CS202210140_79	Chrp_78		CS202210140_472	Choroid plexus	Cluster							78
-CS202210140_80	Chrp_79		CS202210140_472	Choroid plexus	Cluster							79
-CS202210140_81	Chrp_80		CS202210140_472	Choroid plexus	Cluster							80
-CS202210140_82	Chrp_81		CS202210140_472	Choroid plexus	Cluster							81
-CS202210140_83	Chrp_82		CS202210140_472	Choroid plexus	Cluster							82
-CS202210140_464	Microglia				supercluster_term	CL:0000129	microglia	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PTPRC		
-CS202210140_465	Vascular				supercluster_term	CL:0002139	endothelial cell of vascular tree	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	CLDN5|ACTA2		
-CS202210140_466	Fibroblast				supercluster_term	CL:0000057	fibroblast			LUM		
-CS202210140_467	Oligodendrocyte precursor				supercluster_term	CL:0002453	oligodendrocyte precursor cell	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PDGFRA|SOX10		
-CS202210140_468	Committed oligodendrocyte precursor				supercluster_term	CL:4023059	differentiation-committed oligodendrcyte precursor			SOX10|GPR17		
-CS202210140_469	Oligodendrocyte				supercluster_term	CL:0000128	oligodendrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	SOX10|PLP1		
-CS202210140_470	Astrocyte				supercluster_term	CL:0000127	astrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	AQP4		
-CS202210140_471	Ependymal				supercluster_term	CL:0000065	ependymal cell			FOXJ1		
-CS202210140_472	Choroid plexus				supercluster_term	CL:0000706	choroid plexus epithelial cell			FOXJ1|TTR		
-CS202210140_493	Bergmann glia				supercluster_term	CL:0000644	Bergmann glial cell	GDF10 marks Bergmann glia in the mouse Other markers from adult human data		AQP4|GDF10|GABRG3|WIF1|LGR6		
+cell_set_accession	cell_label	cell_fullname	parent_cell_set_accession	parent_cell_set_name	labelset	cell_ontology_term_id	cell_ontology_term	rationale	rationale_dois	marker_gene_evidence	synonyms
+CS202210140_5	Mgl_4		CS202210140_464	Microglia	Cluster						
+CS202210140_6	Mgl_5		CS202210140_464	Microglia	Cluster						
+CS202210140_7	Mgl_6		CS202210140_464	Microglia	Cluster						
+CS202210140_8	Mgl_7		CS202210140_464	Microglia	Cluster						
+CS202210140_9	Mgl_8		CS202210140_464	Microglia	Cluster						
+CS202210140_10	Mgl_9		CS202210140_464	Microglia	Cluster						
+CS202210140_11	Mgl_10		CS202210140_464	Microglia	Cluster						
+CS202210140_12	Mgl_11		CS202210140_464	Microglia	Cluster						
+CS202210140_13	Mgl_12		CS202210140_464	Microglia	Cluster						
+CS202210140_14	VendPLVAP_13		CS202210140_465	Vascular	Cluster						
+CS202210140_15	VendAC_14		CS202210140_465	Vascular	Cluster						
+CS202210140_16	VendC_15		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell	BMX = large artery		FLT1|CLDN5|PECAM1|MFSD2A	
+CS202210140_17	VendVC_16		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell				
+CS202210140_18	VendV_17		CS202210140_465	Vascular	Cluster	CL:0002543	vein endothelial cell				
+CS202210140_19	VendA_18		CS202210140_465	Vascular	Cluster	CL:1000413	endothelial cell of artery			FLT1|CLDN5|PECAM1|BMX|VEGFC|JUNB	
+CS202210140_20	Vsmc_19		CS202210140_465	Vascular	Cluster						
+CS202210140_21	Vsmc_20		CS202210140_465	Vascular	Cluster	CL:0002590	smooth muscle cell of the brain vasculature	Inferred from expression of: RGS5 (Cho et al., 2003); PDGFRB (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200	PDGFRB|ACTA2|MYH11	
+CS202210140_22	Per_21		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4	
+CS202210140_23	Per_22		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4	
+CS202210140_24	Per_23		CS202210140_465	Vascular	Cluster						
+CS202210140_25	Fbl_24		CS202210140_466	Fibroblast	Cluster						
+CS202210140_26	Fbl_25		CS202210140_466	Fibroblast	Cluster						
+CS202210140_27	Fbl_26		CS202210140_466	Fibroblast	Cluster						
+CS202210140_28	Fbl_27		CS202210140_466	Fibroblast	Cluster						
+CS202210140_29	Fbl_28		CS202210140_466	Fibroblast	Cluster						
+CS202210140_30	Fbl_29		CS202210140_466	Fibroblast	Cluster						
+CS202210140_31	Fbl_30		CS202210140_466	Fibroblast	Cluster						
+CS202210140_32	Fbl_31		CS202210140_466	Fibroblast	Cluster	CL:4023097	arachnoid barrier cell		https://doi.org/10.1016/j.devcel.2020.06.009	AQP4|GDF10|GABRG3|WIF1|LGR6	
+CS202210140_33	OPC_32		CS202210140_467	Oligodendrocyte precursor	Cluster						
+CS202210140_34	OPC_33		CS202210140_467	Oligodendrocyte precursor	Cluster						
+CS202210140_35	OPC_34		CS202210140_467	Oligodendrocyte precursor	Cluster						
+CS202210140_36	OPC_35		CS202210140_467	Oligodendrocyte precursor	Cluster						
+CS202210140_37	OPC_36		CS202210140_467	Oligodendrocyte precursor	Cluster						
+CS202210140_38	COP_37		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_39	COP_38		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_40	COP_39		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_41	Oligo_40		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_42	COP_41		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_43	COP_42		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_44	COP_43		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_45	Oligo_44		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_46	Oligo_45		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_47	Oligo_46		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_48	Oligo_47		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_49	Oligo_48		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_50	Oligo_49		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_51	Oligo_50		CS202210140_469	Oligodendrocyte	Cluster						
+CS202210140_52	Bgl_51		CS202210140_493	Bergmann glia	Cluster						
+CS202210140_53	Astro_52		CS202210140_470	Astrocyte	Cluster						
+CS202210140_54	Astro_53		CS202210140_470	Astrocyte	Cluster						
+CS202210140_55	Astro_54		CS202210140_470	Astrocyte	Cluster						
+CS202210140_56	Astro_55		CS202210140_470	Astrocyte	Cluster						
+CS202210140_57	Astro_56		CS202210140_470	Astrocyte	Cluster						
+CS202210140_58	Astro_57		CS202210140_470	Astrocyte	Cluster						
+CS202210140_59	Astro_58		CS202210140_470	Astrocyte	Cluster						
+CS202210140_60	Astro_59		CS202210140_470	Astrocyte	Cluster						
+CS202210140_61	Astro_60		CS202210140_470	Astrocyte	Cluster						
+CS202210140_62	Astro_61		CS202210140_470	Astrocyte	Cluster						
+CS202210140_63	Astro_62		CS202210140_470	Astrocyte	Cluster						
+CS202210140_64	Astro_63		CS202210140_470	Astrocyte	Cluster						
+CS202210140_65	Astro_64		CS202210140_470	Astrocyte	Cluster						
+CS202210140_66	Epen_65		CS202210140_471	Ependymal	Cluster						
+CS202210140_67	Epen_66		CS202210140_471	Ependymal	Cluster						
+CS202210140_68	Epen_67		CS202210140_471	Ependymal	Cluster						
+CS202210140_69	Epen_68		CS202210140_471	Ependymal	Cluster						
+CS202210140_70	Epen_69		CS202210140_471	Ependymal	Cluster						
+CS202210140_71	Epen_70		CS202210140_471	Ependymal	Cluster						
+CS202210140_72	Epen_71		CS202210140_471	Ependymal	Cluster						
+CS202210140_73	Epen_72		CS202210140_471	Ependymal	Cluster						
+CS202210140_74	Epen_73		CS202210140_471	Ependymal	Cluster						
+CS202210140_75	Epen_74		CS202210140_471	Ependymal	Cluster						
+CS202210140_76	COP_75		CS202210140_468	Committed oligodendrocyte precursor	Cluster						
+CS202210140_77	Chrp_76		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_78	Chrp_77		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_79	Chrp_78		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_80	Chrp_79		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_81	Chrp_80		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_82	Chrp_81		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_83	Chrp_82		CS202210140_472	Choroid plexus	Cluster						
+CS202210140_464	Microglia				supercluster_term	CL:0000129	microglia	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PTPRC	
+CS202210140_465	Vascular				supercluster_term	CL:0002139	endothelial cell of vascular tree	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	CLDN5|ACTA2	
+CS202210140_466	Fibroblast				supercluster_term	CL:0000057	fibroblast			LUM	
+CS202210140_467	Oligodendrocyte precursor				supercluster_term	CL:0002453	oligodendrocyte precursor cell	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PDGFRA|SOX10	
+CS202210140_468	Committed oligodendrocyte precursor				supercluster_term	CL:4023059	differentiation-committed oligodendrcyte precursor			SOX10|GPR17	
+CS202210140_469	Oligodendrocyte				supercluster_term	CL:0000128	oligodendrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	SOX10|PLP1	
+CS202210140_470	Astrocyte				supercluster_term	CL:0000127	astrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	AQP4	
+CS202210140_471	Ependymal				supercluster_term	CL:0000065	ependymal cell			FOXJ1	
+CS202210140_472	Choroid plexus				supercluster_term	CL:0000706	choroid plexus epithelial cell			FOXJ1|TTR	
+CS202210140_493	Bergmann glia				supercluster_term	CL:0000644	Bergmann glial cell	GDF10 marks Bergmann glia in the mouse Other markers from adult human data		AQP4|GDF10|GABRG3|WIF1|LGR6	
