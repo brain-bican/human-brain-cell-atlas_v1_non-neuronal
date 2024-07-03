@@ -31,6 +31,7 @@ annotation	rationale	rationale	empty	text		The free-text rationale which users p
 annotation	rationale_dois	rationale dois	empty	text		A list of valid publication DOIs cited by the author to support or provide justification/evidence/context for 'cell_label'. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	marker_gene_evidence	marker gene evidence	empty	text		List of gene names explicitly used as evidence for this cell annotation. Each gene MUST be included in the matrix of the AnnData/Seurat file. Multiple values can be concatenated by using the '|' character as a delimiter.
 annotation	synonyms	synonyms	empty	text		This field denotes any free-text term of a biological entity which the author associates as synonymous with the biological entity listed in the field 'cell_label'. In the case whereby no synonyms exist, the authors MAY leave this as blank, which is encoded as 'NA'. However, this field is NOT OPTIONAL. Multiple values can be concatenated by using the '|' character as a delimiter.
+annotation	Cluster ID	Cluster ID	empty	text		
 labelset	name	name		text	primary	
 labelset	description	description	empty	text		Some text describing what types of cell annotation this annotation key is used to record
 labelset	rank	rank	empty	text		A number indicating relative granularity with 0 being the most specific.  Use this where a single dataset has multiple keys that are used consistently to record annotations and different levels of granularity.
