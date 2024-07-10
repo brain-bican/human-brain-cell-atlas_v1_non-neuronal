@@ -1,90 +1,387 @@
-cell_set_accession	cell_label	cell_fullname	parent_cell_set_accession	parent_cell_set_name	labelset	cell_ontology_term_id	cell_ontology_term	rationale	rationale_dois	marker_gene_evidence	synonyms	Cluster ID
-CS202210140_5	Mgl_4		CS202210140_464	Microglia	Cluster							4
-CS202210140_6	Mgl_5		CS202210140_464	Microglia	Cluster							5
-CS202210140_7	Mgl_6		CS202210140_464	Microglia	Cluster							6
-CS202210140_8	Mgl_7		CS202210140_464	Microglia	Cluster							7
-CS202210140_9	Mgl_8		CS202210140_464	Microglia	Cluster							8
-CS202210140_10	Mgl_9		CS202210140_464	Microglia	Cluster							9
-CS202210140_11	Mgl_10		CS202210140_464	Microglia	Cluster							10
-CS202210140_12	Mgl_11		CS202210140_464	Microglia	Cluster							11
-CS202210140_13	Mgl_12		CS202210140_464	Microglia	Cluster							12
-CS202210140_14	VendPLVAP_13		CS202210140_465	Vascular	Cluster							13
-CS202210140_15	VendAC_14		CS202210140_465	Vascular	Cluster							14
-CS202210140_16	VendC_15		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell	BMX = large artery		FLT1|CLDN5|PECAM1|MFSD2A		15
-CS202210140_17	VendVC_16		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell					16
-CS202210140_18	VendV_17		CS202210140_465	Vascular	Cluster	CL:0002543	vein endothelial cell					17
-CS202210140_19	VendA_18		CS202210140_465	Vascular	Cluster	CL:1000413	endothelial cell of artery			FLT1|CLDN5|PECAM1|BMX|VEGFC|JUNB		18
-CS202210140_20	Vsmc_19		CS202210140_465	Vascular	Cluster							19
-CS202210140_21	Vsmc_20		CS202210140_465	Vascular	Cluster	CL:0002590	smooth muscle cell of the brain vasculature	Inferred from expression of: RGS5 (Cho et al., 2003); PDGFRB (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200	PDGFRB|ACTA2|MYH11		20
-CS202210140_22	Per_21		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		21
-CS202210140_23	Per_22		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		22
-CS202210140_24	Per_23		CS202210140_465	Vascular	Cluster							23
-CS202210140_25	Fbl_24		CS202210140_466	Fibroblast	Cluster							24
-CS202210140_26	Fbl_25		CS202210140_466	Fibroblast	Cluster							25
-CS202210140_27	Fbl_26		CS202210140_466	Fibroblast	Cluster							26
-CS202210140_28	Fbl_27		CS202210140_466	Fibroblast	Cluster							27
-CS202210140_29	Fbl_28		CS202210140_466	Fibroblast	Cluster							28
-CS202210140_30	Fbl_29		CS202210140_466	Fibroblast	Cluster							29
-CS202210140_31	Fbl_30		CS202210140_466	Fibroblast	Cluster							30
-CS202210140_32	Fbl_31		CS202210140_466	Fibroblast	Cluster	CL:4023097	arachnoid barrier cell		https://doi.org/10.1016/j.devcel.2020.06.009	AQP4|GDF10|GABRG3|WIF1|LGR6		31
-CS202210140_33	OPC_32		CS202210140_467	Oligodendrocyte precursor	Cluster							32
-CS202210140_34	OPC_33		CS202210140_467	Oligodendrocyte precursor	Cluster							33
-CS202210140_35	OPC_34		CS202210140_467	Oligodendrocyte precursor	Cluster							34
-CS202210140_36	OPC_35		CS202210140_467	Oligodendrocyte precursor	Cluster							35
-CS202210140_37	OPC_36		CS202210140_467	Oligodendrocyte precursor	Cluster							36
-CS202210140_38	COP_37		CS202210140_468	Committed oligodendrocyte precursor	Cluster							37
-CS202210140_39	COP_38		CS202210140_468	Committed oligodendrocyte precursor	Cluster							38
-CS202210140_40	COP_39		CS202210140_468	Committed oligodendrocyte precursor	Cluster							39
-CS202210140_41	Oligo_40		CS202210140_469	Oligodendrocyte	Cluster							40
-CS202210140_42	COP_41		CS202210140_468	Committed oligodendrocyte precursor	Cluster							41
-CS202210140_43	COP_42		CS202210140_468	Committed oligodendrocyte precursor	Cluster							42
-CS202210140_44	COP_43		CS202210140_468	Committed oligodendrocyte precursor	Cluster							43
-CS202210140_45	Oligo_44		CS202210140_469	Oligodendrocyte	Cluster							44
-CS202210140_46	Oligo_45		CS202210140_469	Oligodendrocyte	Cluster							45
-CS202210140_47	Oligo_46		CS202210140_469	Oligodendrocyte	Cluster							46
-CS202210140_48	Oligo_47		CS202210140_469	Oligodendrocyte	Cluster							47
-CS202210140_49	Oligo_48		CS202210140_469	Oligodendrocyte	Cluster							48
-CS202210140_50	Oligo_49		CS202210140_469	Oligodendrocyte	Cluster							49
-CS202210140_51	Oligo_50		CS202210140_469	Oligodendrocyte	Cluster							50
-CS202210140_52	Bgl_51		CS202210140_493	Bergmann glia	Cluster							51
-CS202210140_53	Astro_52		CS202210140_470	Astrocyte	Cluster							52
-CS202210140_54	Astro_53		CS202210140_470	Astrocyte	Cluster							53
-CS202210140_55	Astro_54		CS202210140_470	Astrocyte	Cluster							54
-CS202210140_56	Astro_55		CS202210140_470	Astrocyte	Cluster							55
-CS202210140_57	Astro_56		CS202210140_470	Astrocyte	Cluster							56
-CS202210140_58	Astro_57		CS202210140_470	Astrocyte	Cluster							57
-CS202210140_59	Astro_58		CS202210140_470	Astrocyte	Cluster							58
-CS202210140_60	Astro_59		CS202210140_470	Astrocyte	Cluster							59
-CS202210140_61	Astro_60		CS202210140_470	Astrocyte	Cluster							60
-CS202210140_62	Astro_61		CS202210140_470	Astrocyte	Cluster							61
-CS202210140_63	Astro_62		CS202210140_470	Astrocyte	Cluster							62
-CS202210140_64	Astro_63		CS202210140_470	Astrocyte	Cluster							63
-CS202210140_65	Astro_64		CS202210140_470	Astrocyte	Cluster							64
-CS202210140_66	Epen_65		CS202210140_471	Ependymal	Cluster							65
-CS202210140_67	Epen_66		CS202210140_471	Ependymal	Cluster							66
-CS202210140_68	Epen_67		CS202210140_471	Ependymal	Cluster							67
-CS202210140_69	Epen_68		CS202210140_471	Ependymal	Cluster							68
-CS202210140_70	Epen_69		CS202210140_471	Ependymal	Cluster							69
-CS202210140_71	Epen_70		CS202210140_471	Ependymal	Cluster							70
-CS202210140_72	Epen_71		CS202210140_471	Ependymal	Cluster							71
-CS202210140_73	Epen_72		CS202210140_471	Ependymal	Cluster							72
-CS202210140_74	Epen_73		CS202210140_471	Ependymal	Cluster							73
-CS202210140_75	Epen_74		CS202210140_471	Ependymal	Cluster							74
-CS202210140_76	COP_75		CS202210140_468	Committed oligodendrocyte precursor	Cluster							75
-CS202210140_77	Chrp_76		CS202210140_472	Choroid plexus	Cluster							76
-CS202210140_78	Chrp_77		CS202210140_472	Choroid plexus	Cluster							77
-CS202210140_79	Chrp_78		CS202210140_472	Choroid plexus	Cluster							78
-CS202210140_80	Chrp_79		CS202210140_472	Choroid plexus	Cluster							79
-CS202210140_81	Chrp_80		CS202210140_472	Choroid plexus	Cluster							80
-CS202210140_82	Chrp_81		CS202210140_472	Choroid plexus	Cluster							81
-CS202210140_83	Chrp_82		CS202210140_472	Choroid plexus	Cluster							82
-CS202210140_464	Microglia				supercluster_term	CL:0000129	microglia	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PTPRC		
-CS202210140_465	Vascular				supercluster_term	CL:0002139	endothelial cell of vascular tree	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	CLDN5|ACTA2		
-CS202210140_466	Fibroblast				supercluster_term	CL:0000057	fibroblast			LUM		
-CS202210140_467	Oligodendrocyte precursor				supercluster_term	CL:0002453	oligodendrocyte precursor cell	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PDGFRA|SOX10		
-CS202210140_468	Committed oligodendrocyte precursor				supercluster_term	CL:4023059	differentiation-committed oligodendrcyte precursor			SOX10|GPR17		
-CS202210140_469	Oligodendrocyte				supercluster_term	CL:0000128	oligodendrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	SOX10|PLP1		
-CS202210140_470	Astrocyte				supercluster_term	CL:0000127	astrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	AQP4		
-CS202210140_471	Ependymal				supercluster_term	CL:0000065	ependymal cell			FOXJ1		
-CS202210140_472	Choroid plexus				supercluster_term	CL:0000706	choroid plexus epithelial cell			FOXJ1|TTR		
-CS202210140_493	Bergmann glia				supercluster_term	CL:0000644	Bergmann glial cell	GDF10 marks Bergmann glia in the mouse Other markers from adult human data		AQP4|GDF10|GABRG3|WIF1|LGR6		
+cell_set_accession	cell_label	cell_fullname	parent_cell_set_accession	parent_cell_set_name	labelset	cell_ontology_term_id	cell_ontology_term	rationale	rationale_dois	marker_gene_evidence	synonyms	Cluster ID	Class auto_annotation	Neurotransmitter auto_annotation	Neuropeptide auto_annotation	Subtype auto_annotation	Transferred MTG Label	Top three regions	Top three dissections	Top Enriched Genes	Number of cells	DoubletFinder score	Total UMI	Fraction unspliced	Fraction mitochondrial	H19.30.002	H19.30.001	H18.30.002	H18.30.001	Fraction cells from top donor	Number of donors	subcluster_id
+CS202210140_5	Mgl_4		CS202210140_464	Microglia	Cluster							4	MGL		NAMPT		Micro-PVM	Spinal cord: 31.8%, Pons: 26.0%, Medulla: 13.2%	Human SpC: 31.8%, Human MN: 11.5%, Human PnEN: 11.4%	SRGN, RGS1, GPR183, CD69, HLA-DRA, OLR1, TNFRSF1B, IFI30, CXCR4, CD74	745.0	0.013652992	2439.644295	0.672263033	0.005220894	176.0	135.0	434.0	0.0	0.582550336	3.0	
+CS202210140_6	Mgl_5		CS202210140_464	Microglia	Cluster							5	MGL				Micro-PVM	Hippocampus: 40.4%, Medulla: 29.6%, Basal forebrain: 20.1%	Human MoAN: 26.6%, Human DGR-CA4Rpy: 25.2%, Human SEP: 18.8%	HLA-DRA, TTR, CD74, HLA-DRB1, SRGN, RGS1, HLA-DPA1, MS4A6A, HLA-DQA1, HLA-DRB5	777.0	0.01351135	2327.415701	0.615033643	0.015576116	57.0	534.0	186.0	0.0	0.687258687	3.0	
+CS202210140_7	Mgl_6		CS202210140_464	Microglia	Cluster							6	MGL				Micro-PVM	Hippocampus: 25.1%, Basal forebrain: 15.2%, Thalamus: 11.0%	Human CA1: 7.0%, Human GPi: 6.9%, Human CA4C-DGC: 6.5%	LNCAROD, ITGAX, CD74, LINC00278, FYB1, APBB1IP, CD84, PIK3R5, HLA-DRA, C1QC	2485.0	0.010397922	3340.555734	0.698040117	0.006842092	590.0	551.0	1344.0	0.0	0.54084507	3.0	
+CS202210140_8	Mgl_7		CS202210140_464	Microglia	Cluster							7	MGL				Micro-PVM	Basal forebrain: 32.0%, Midbrain: 19.4%, Pons: 12.5%	Human GPi: 20.8%, Human SN: 10.3%, Human GPe: 9.1%	CD74, CX3CR1, APBB1IP, HLA-DRA, LNCAROD, C3, ITGAX, FYB1, DOCK8, PTPRC	34829.0	0.016925496	2714.449453	0.706121733	0.0032935	14434.0	10829.0	9556.0	10.0	0.414424761	4.0	
+CS202210140_9	Mgl_8		CS202210140_464	Microglia	Cluster							8	MGL		IGF		Micro-PVM	Hippocampus: 19.2%, Midbrain: 18.4%, Basal forebrain: 11.1%	Human SN: 8.2%, Human CBV: 4.6%, Human CA4C-DGC: 4.6%	CCDC26, LNCAROD, FYB1, CSF1R, APBB1IP, CX3CR1, SYK, AL392172.1, DOCK8, C3	7750.0	0.01018139	3517.230839	0.733649691	0.004932159	1219.0	1813.0	4718.0	0.0	0.608774194	3.0	
+CS202210140_10	Mgl_9		CS202210140_464	Microglia	Cluster							9	MGL		IGF		Micro-PVM	Cerebral cortex: 27.2%, Midbrain: 16.6%, Hippocampus: 15.0%	Human SN-RN: 8.1%, Human GPi: 5.5%, Human SN: 5.4%	AIF1, HLA-DRA, CD74, C1QC, C1QB, CX3CR1, TYROBP, CSF1R, C3, APBB1IP	5165.0	0.010754356	2750.587609	0.637255594	0.004583665	1345.0	1288.0	2532.0	0.0	0.490222652	3.0	
+CS202210140_11	Mgl_10		CS202210140_464	Microglia	Cluster							10	MGL		IGF		Micro-PVM	Basal forebrain: 27.7%, Midbrain: 22.1%, Cerebral cortex: 10.3%	Human GPi: 17.4%, Human SN: 9.3%, Human GPe: 7.9%	LNCAROD, APBB1IP, CX3CR1, FYB1, CSF1R, CD74, DOCK8, C3, SYK, PTPRC	16707.0	0.013984997	2907.781648	0.717180156	0.003400028	4246.0	4735.0	7721.0	5.0	0.462141617	4.0	
+CS202210140_12	Mgl_11		CS202210140_464	Microglia	Cluster							11	MGL		IGF		Micro-PVM	Cerebral cortex: 37.4%, Hippocampus: 24.2%, Thalamus: 11.1%	Human DGR-CA4Rpy: 6.3%, Human MTG: 5.7%, Human DGU-CA4Upy: 5.7%	CSF1R, CX3CR1, APBB1IP, FYB1, AL392172.1, LINC00996, LNCAROD, SYK, DOCK8, C3	20036.0	0.007858125	3079.128818	0.723613167	0.005591141	6410.0	4771.0	8837.0	18.0	0.441056099	4.0	
+CS202210140_13	Mgl_12		CS202210140_464	Microglia	Cluster							12	MAC		IGF		Micro-PVM	Basal forebrain: 29.4%, Cerebral cortex: 14.0%, Cerebellum: 12.2%	Human GPi: 11.5%, Human CbDN: 9.7%, Human SEP: 9.2%	MRC1, CD163, STAB1, MS4A6A, MS4A4A, F13A1, SIGLEC1, MS4A4E, FCGR2C, LILRB5	3344.0	0.023225077	3016.474282	0.716177599	0.005295321	1039.0	854.0	1449.0	2.0	0.433313397	4.0	
+CS202210140_14	VendPLVAP_13		CS202210140_465	Vascular	Cluster							13	CHRP ENDO		NAMPT NUCB			Basal forebrain: 74.0%, Medulla: 23.3%, Hippocampus: 1.4%	Human SEP: 74.0%, Human MoSR: 11.0%, Human MoAN: 8.2%	FLT1, VWF, PLVAP, KDR, CFH, SERPINH1, CLEC1A, PKHD1L1, ANO2, TGM2	73.0	0.030808056	4872.986301	0.668800512	0.008521957	8.0	11.0	54.0	0.0	0.739726027	3.0	
+CS202210140_15	VendAC_14		CS202210140_465	Vascular	Cluster							14	ENDO		EDN NAMPT	ARTERIOLE CAP	Endo	Hippocampus: 23.8%, Cerebral cortex: 23.3%, Thalamus: 10.3%	Human A35r: 14.0%, Human CA1: 8.7%, Human CBV: 5.5%	CLDN5, FLT1, ABCG2, MECOM, CD34, SMAD6, SOX18, EPAS1, SEMA3G, HLA-E	748.0	0.019628259	3133.082888	0.624385319	0.007243941	153.0	104.0	485.0	6.0	0.648395722	4.0	
+CS202210140_16	VendC_15		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell	BMX = large artery		FLT1|CLDN5|PECAM1|MFSD2A		15	ENDO		EDN NAMPT NUCB	CAP	Endo	Cerebral cortex: 23.2%, Hippocampus: 15.7%, Thalamus: 15.3%	Human A35r: 8.6%, Human CBV: 6.6%, Human CA1: 4.8%	CLDN5, ABCG2, FLT1, MECOM, IFI27, TM4SF18, HLA-E, CAVIN2, FLI1, SLC38A5	2746.0	0.024124427	3281.848871	0.600418074	0.007209329	710.0	505.0	1522.0	9.0	0.554260743	4.0	
+CS202210140_17	VendVC_16		CS202210140_465	Vascular	Cluster	CL:0002144	capillary endothelial cell					16	ENDO		NAMPT NUCB	CAP	Endo	Cerebral cortex: 25.5%, Hippocampus: 17.8%, Midbrain: 8.4%	Human A35r: 14.8%, Human CA1: 5.6%, Human SpC: 4.1%	CLDN5, MECOM, VWF, FLT1, ABCG2, FLI1, NOSTRIN, LINC02147, TGM2, CFH	1046.0	0.026046707	4283.276291	0.684555871	0.004548541	191.0	199.0	648.0	8.0	0.619502868	4.0	
+CS202210140_18	VendV_17		CS202210140_465	Vascular	Cluster	CL:0002543	vein endothelial cell					17	ENDO		EDN NAMPT NUCB UBL	VENOUS	Endo	Hypothalamus: 26.7%, Medulla: 21.8%, Pons: 15.8%	Human MN: 13.9%, Human IO: 9.9%, Human HTHso: 8.9%	IL1R1, VCAM1, CLDN5, VWF, CLEC2B, ICAM1, SERPINE1, ZFP36, PLA1A, MECOM	101.0	0.029247301	5335.990099	0.636428709	0.004547217	22.0	33.0	46.0	0.0	0.455445545	3.0	
+CS202210140_19	VendA_18		CS202210140_465	Vascular	Cluster	CL:1000413	endothelial cell of artery			FLT1|CLDN5|PECAM1|BMX|VEGFC|JUNB		18	ENDO		NAMPT NUCB	ARTERIOLE ARTERY		Cerebral cortex: 23.3%, Medulla: 16.4%, Thalamus: 14.6%	Human A35r: 10.4%, Human IO: 7.3%, Human MN: 6.9%	MECOM, CLDN5, MGP, FLT1, HLA-E, TM4SF1, SMAD6, EPAS1, KLF2, CXCL2	451.0	0.023919414	3259.514412	0.592016006	0.010042449	113.0	131.0	207.0	0.0	0.458980044	3.0	
+CS202210140_20	Vsmc_19		CS202210140_465	Vascular	Cluster							19	ENDO VSMC		IGF NAMPT NUCB UBL	FIBMYO		Thalamus: 28.4%, Midbrain: 12.2%, Medulla: 11.8%	Human ANC: 7.4%, Human SN-RN: 5.7%, Human Pul: 5.7%	MYL9, CARMN, CCL19, IFITM2, FHL5, ADIRF, CLDN5, IFITM3, NOTCH3, CFH	229.0	0.030009837	2780.292576	0.550435024	0.017040154	52.0	63.0	111.0	3.0	0.484716157	4.0	
+CS202210140_21	Vsmc_20		CS202210140_465	Vascular	Cluster	CL:0002590	smooth muscle cell of the brain vasculature	Inferred from expression of: RGS5 (Cho et al., 2003); PDGFRB (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200	PDGFRB|ACTA2|MYH11		20	VSMC		AGT NAMPT UBL			Thalamus: 21.8%, Cerebral cortex: 13.7%, Medulla: 12.4%	Human MN: 10.5%, Human IO: 7.0%, Human Pul: 4.0%	MYL9, CARMN, ADIRF, FHL5, ACTA2, VIM, TBX18, MUSTN1, TBX2, NOTCH3	845.0	0.034817885	3029.688757	0.55909446	0.015250756	172.0	280.0	391.0	2.0	0.462721893	4.0	
+CS202210140_22	Per_21		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		21	PER		AGT IGF UBL		VLMC	Thalamus: 28.3%, Pons: 17.9%, Basal forebrain: 9.8%	Human LG: 8.0%, Human Pul: 7.0%, Human PnEN: 6.7%	IFITM2, CARMN, MUSTN1, NOTCH3, GGT5, IFITM3, SLC6A12, MYL9, BGN, ITIH5	1753.0	0.036719091	2761.257273	0.517748738	0.013197038	582.0	356.0	813.0	2.0	0.463776383	4.0	
+CS202210140_23	Per_22		CS202210140_465	Vascular	Cluster	CL:0000669	pericyte	Inferred from expression of: RGS5 (Cho et al., 2003);  PDGFRB, ANPEP (in a subset) (Sweeney et al., 2016); MYH11, MYOCD, CNN1, NG2 / CSPG4 (Kumar et al., 2017).   For example, the absence of α‐smooth muscle actin (SMA) on NG2‐positive cells in CNS capillaries has led some workers to the erroneous conclusion that NG2 is expressed by endothelial cells, rather than mural cells, in this microvasculature (Schrappe et al., 1991; Grako and Stallcup, 1995). Our current results demonstrate that, although SMA is an excellent marker for smooth muscle cells, it is not always an appropriate marker for pericytes in vivo. (Ozerdem et al., 2001)	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019	PDGFRB|CSPG4		22	PER		IGF		VLMC	Thalamus: 34.2%, Cerebral cortex: 15.9%, Basal forebrain: 10.2%	Human CBV: 6.7%, Human CM: 5.4%, Human LP: 5.3%	CARMN, NOTCH3, SLC6A12, ITIH5, GGT5, SLC12A7, IFITM2, LINC02147, CYSLTR2, BGN	1856.0	0.029533909	3559.655711	0.607943216	0.01293205	634.0	345.0	868.0	9.0	0.467672414	4.0	
+CS202210140_24	Per_23		CS202210140_465	Vascular	Cluster							23			IGF		VLMC	Thalamus: 48.8%, Cerebral cortex: 25.0%, Basal forebrain: 10.7%	Human Pul: 31.0%, Human STG: 7.1%, Human LP: 6.0%	ITIH5, SLC6A12, SLC6A13, ATP1A2, DCN, PRELP, COLEC12, IFITM2, MUSTN1, TFPI	84.0	0.014988394	2054.154762	0.564226216	0.015552875	43.0	14.0	27.0	0.0	0.511904762	3.0	
+CS202210140_25	Fbl_24		CS202210140_466	Fibroblast	Cluster							24	FIB		IGF NAMPT	PIA PVF		Basal forebrain: 38.0%, Medulla: 32.3%, Hippocampus: 25.1%	Human SEP: 38.0%, Human MoAN: 17.6%, Human CA1R-CA2R-CA3R: 16.8%	C7, CFH, IGF2, COL1A2, LINC02126, MGP, COL3A1, TBX18, FBLN1, TTR	279.0	0.034615305	3663.659498	0.621318333	0.010746794	42.0	128.0	109.0	0.0	0.458781362	3.0	
+CS202210140_26	Fbl_25		CS202210140_466	Fibroblast	Cluster							25	FIB		EDN IGF	PIA	VLMC	Thalamus: 22.3%, Cerebral cortex: 20.0%, Pons: 15.0%	Human MN: 8.3%, Human A35r: 8.2%, Human CM-Pf: 6.6%	COL1A2, TBX18, CFH, IGF2, COL3A1, ITIH5, FLVCR2, FMO2, LINC02147, BMP5	709.0	0.034415482	4192.19464	0.689267884	0.008552175	171.0	185.0	348.0	5.0	0.490832158	4.0	
+CS202210140_27	Fbl_26		CS202210140_466	Fibroblast	Cluster							26	FIB		EDN IGF	PIA	VLMC	Thalamus: 20.7%, Basal forebrain: 15.4%, Pons: 13.1%	Human SEP: 6.0%, Human CBV: 5.7%, Human SN: 4.6%	COL1A2, TBX18, FMO2, IGF2, ITIH5, C7, FBLN1, FLVCR2, SLC6A20, COL15A1	1340.0	0.035093778	3624.874627	0.684470752	0.009661993	348.0	364.0	627.0	1.0	0.467910448	4.0	
+CS202210140_28	Fbl_27		CS202210140_466	Fibroblast	Cluster							27	FIB		EDN IGF	PIA	VLMC	Thalamus: 34.3%, Cerebral cortex: 15.0%, Pons: 13.3%	Human CM-Pf: 8.7%, Human LG: 4.4%, Human VLN: 4.3%	TBX18, COL1A2, FMO2, ITIH5, LINC02147, COL15A1, FLVCR2, COLEC12, C7, LINC02058	2056.0	0.026503053	4152.054961	0.718434293	0.008202063	545.0	513.0	995.0	3.0	0.483949416	4.0	
+CS202210140_29	Fbl_28		CS202210140_466	Fibroblast	Cluster							28	FIB		EDN IGF	PIA	VLMC	Thalamus: 36.4%, Cerebral cortex: 12.1%, Pons: 11.0%	Human LG: 7.9%, Human Pul: 6.0%, Human LP: 4.6%	COL1A2, TBX18, C7, ITIH5, IGF2, FMO2, ISLR, LINC02147, FBLN1, DCN	3767.0	0.033419676	3027.037961	0.591507661	0.008756879	1067.0	1140.0	1551.0	9.0	0.411733475	4.0	
+CS202210140_30	Fbl_29		CS202210140_466	Fibroblast	Cluster							29			IGF NAMPT			Medulla: 41.3%, Spinal cord: 39.7%, Thalamus: 4.8%	Human SpC: 39.7%, Human IO: 25.4%, Human MoRF-MoEN: 7.9%	IGFBP6, VIM, BNC2, FLVCR2, IGF2, COL1A2, CFH, EBF2, CD177, KLF2	63.0	0.0183312	2819.793651	0.621917883	0.006285188	8.0	14.0	41.0	0.0	0.650793651	3.0	
+CS202210140_31	Fbl_30		CS202210140_466	Fibroblast	Cluster							30	CHRP		IGF	ARACH		Cerebral cortex: 35.3%, Basal forebrain: 29.7%, Medulla: 10.6%	Human SEP: 29.0%, Human A35r: 21.2%, Human MN: 6.4%	CFH, SLC6A20, COL1A2, KDR, VIM, SLC5A5, COL3A1, SLC6A13, SLC16A12, SLC6A12	283.0	0.018868697	4424.003534	0.741249938	0.007789401	28.0	78.0	177.0	0.0	0.625441696	3.0	
+CS202210140_32	Fbl_31		CS202210140_466	Fibroblast	Cluster	CL:4023097	arachnoid barrier cell		https://doi.org/10.1016/j.devcel.2020.06.009	AQP4|GDF10|GABRG3|WIF1|LGR6		31	CHRP		IGF NAMPT NUCB	ABC PIA		Basal forebrain: 47.3%, Medulla: 20.3%, Hypothalamus: 12.4%	Human SEP: 47.2%, Human MN: 11.8%, Human MoAN: 8.8%	PTGDR, BNC2, BMP5, FOXC1, COL3A1, COL1A2, SLPI, SFRP2, SPTLC3, TBX15	659.0	0.022172741	5195.570561	0.678051805	0.008754696	77.0	211.0	371.0	0.0	0.562974203	3.0	
+CS202210140_33	OPC_32		CS202210140_467	Oligodendrocyte precursor	Cluster							32	OPC		NUCB NXPH SCG proSAAS		OPC	Hypothalamus: 54.7%, Thalamus: 16.6%, Amygdala: 8.5%	Human MN: 54.6%, Human CM-Pf: 12.1%, Human CEN: 8.3%	MROH9, VCAN-AS1, FMO6P, FMO3, BX284613.2, AL512308.1, LHFPL3-AS1, Z94057.1, AC004852.2, LINC00402	929.0	0.027782191	13125.18084	0.823972613	0.001356298	257.0	464.0	207.0	1.0	0.499461787	4.0	
+CS202210140_34	OPC_33		CS202210140_467	Oligodendrocyte precursor	Cluster							33	OPC		NXPH proSAAS		OPC	Pons: 23.8%, Midbrain: 22.9%, Thalamus: 19.2%	Human PnRF: 8.4%, Human CBV: 7.8%, Human SN-RN: 7.8%	BX284613.2, MROH9, FMO6P, PDGFRA, VCAN, FERMT1, AL512308.1, OLIG2, AC004852.2, COL9A1	48139.0	0.023691145	5625.469661	0.727416831	0.002842239	10915.0	13964.0	23209.0	51.0	0.482124681	4.0	
+CS202210140_35	OPC_34		CS202210140_467	Oligodendrocyte precursor	Cluster							34	OPC		NXPH proSAAS		OPC	Hippocampus: 33.6%, Cerebral cortex: 30.9%, Amygdala: 16.5%	Human CA1: 11.7%, Human CEN: 8.5%, Human A35r: 6.4%	AC004852.2, AL512308.1, PDGFRA, BX284613.2, GPR17, VCAN, CSPG4, AC117464.1, OLIG2, FERMT1	31058.0	0.014959875	8316.656417	0.775092136	0.002870854	5662.0	4705.0	20601.0	90.0	0.66330736	4.0	
+CS202210140_36	OPC_35		CS202210140_467	Oligodendrocyte precursor	Cluster							35	OPC		NXPH proSAAS		OPC	Cerebral cortex: 62.3%, Hippocampus: 21.4%, Basal forebrain: 6.5%	Human A35r: 17.0%, Human Sub: 9.1%, Human MTG: 8.0%	AC004852.2, PDGFRA, GPNMB, GPR17, AL512308.1, OLIG2, COL20A1, CSPG4, OLIG1, AC117464.1	23965.0	0.009614567	6078.396078	0.756767334	0.002986645	4317.0	3110.0	16477.0	61.0	0.687544335	4.0	
+CS202210140_37	OPC_36		CS202210140_467	Oligodendrocyte precursor	Cluster							36	OPC		NXPH proSAAS		OPC	Cerebral cortex: 33.7%, Thalamus: 12.5%, Midbrain: 11.5%	Human A35r: 20.8%, Human SpC: 8.0%, Human SN: 5.4%	AC004852.2, BX284613.2, PDGFRA, AL512308.1, VCAN, OLIG2, OLIG1, GPR17, CSPG4, FERMT1	1643.0	0.133045254	7523.032867	0.727895082	0.004117665	278.0	388.0	960.0	17.0	0.584297018	4.0	
+CS202210140_38	COP_37		CS202210140_468	Committed oligodendrocyte precursor	Cluster							37	OLIGO		NXPH proSAAS	COP	OPC	Cerebral cortex: 35.6%, Hippocampus: 19.5%, Amygdala: 8.2%	Human A35r: 6.3%, Human CA1: 4.8%, Human MTG: 4.5%	GPR17, AL512308.1, TNS3, BCAS1, MIR503HG, AC008080.4, NKX2-2, GPNMB, INAVA, FIBIN	796.0	0.036323128	7398.628141	0.744992292	0.003369973	330.0	150.0	316.0	0.0	0.414572864	3.0	
+CS202210140_39	COP_38		CS202210140_468	Committed oligodendrocyte precursor	Cluster							38	OLIGO		NXPH proSAAS	COP	OPC	Hippocampus: 29.9%, Cerebral cortex: 29.5%, Pons: 7.8%	Human CA1: 8.9%, Human A35r: 6.5%, Human PnEN: 5.6%	GPR17, AC008080.4, FRG2DP, AL512308.1, MDFI, LINC01447, TNS3, BCAS1, ADAM33, MIR503HG	779.0	0.047351314	8149.983312	0.694729319	0.005274122	275.0	132.0	371.0	1.0	0.476251605	4.0	
+CS202210140_40	COP_39		CS202210140_468	Committed oligodendrocyte precursor	Cluster							39	OLIGO			COP		Cerebral cortex: 28.1%, Hippocampus: 19.7%, Amygdala: 14.6%	Human CA1: 7.3%, Human A35r: 5.6%, Human Pir: 3.9%	AC008080.4, GPR17, AC020909.2, APCDD1, ACAN, DCT, AC022433.1, KANK2, FRG2DP, DOCK6	178.0	0.035651772	8825.292135	0.68816144	0.005952303	34.0	17.0	127.0	0.0	0.713483146	3.0	
+CS202210140_41	Oligo_40		CS202210140_469	Oligodendrocyte	Cluster							40	OLIGO				Oligo	Hippocampus: 24.8%, Cerebral cortex: 23.4%, Amygdala: 10.0%	Human CA4C-DGC: 4.7%, Human DGR-CA4Rpy: 4.6%, Human CA1: 4.3%	OPALIN, CD9, AC020909.2, MAL, LINC00639, AC110285.1, PLLP, LINC01170, MAG, SLCO1A2	4913.0	0.014927828	4145.45919	0.681149571	0.003058072	1373.0	1161.0	2363.0	16.0	0.480968858	4.0	
+CS202210140_42	COP_41		CS202210140_468	Committed oligodendrocyte precursor	Cluster							41	OLIGO					Amygdala: 24.7%, Hypothalamus: 23.3%, Basal forebrain: 20.2%	Human HTHso: 18.1%, Human La: 17.3%, Human GPe: 16.1%	OPALIN, LINC01608, CD22, CDH1, FA2H, LINC01099, LINC01792, MYRF, LINC00639, AC110285.1	1310.0	0.02729107	2983.637405	0.685196031	0.012288976	273.0	124.0	910.0	3.0	0.694656489	4.0	
+CS202210140_43	COP_42		CS202210140_468	Committed oligodendrocyte precursor	Cluster							42	OLIGO					Thalamus: 92.7%, Midbrain: 2.3%, Pons: 1.5%	Human VLN: 69.8%, Human ANC: 6.2%, Human LG: 5.0%	CNDP1, LINC01608, GREM1, OPALIN, FA2H, AC110285.1, MYRF, CD22, LINC01792, LINC00906	1170.0	0.02915232	3293.615385	0.704598083	0.015639372	158.0	79.0	933.0	0.0	0.797435897	3.0	
+CS202210140_44	COP_43		CS202210140_468	Committed oligodendrocyte precursor	Cluster							43	OLIGO		NXPH			Thalamus: 36.2%, Hypothalamus: 18.0%, Amygdala: 10.3%	Human VLN: 24.5%, Human HTHso: 11.5%, Human La: 6.0%	SLC5A11, FA2H, AL033523.1, CD22, AC012494.1, MOBP, MYRF, SH3TC2-DT, PRR5L, CNDP1	417.0	0.053554502	5049.023981	0.694249899	0.021558059	71.0	40.0	304.0	2.0	0.729016787	4.0	
+CS202210140_45	Oligo_44		CS202210140_469	Oligodendrocyte	Cluster							44	OLIGO		UBL		Oligo	Thalamus: 20.9%, Pons: 19.2%, Midbrain: 19.1%	Human SN: 10.9%, Human PnRF: 6.9%, Human CbDN: 5.8%	AC004690.2, SLC5A11, ITGA2, AL033523.1, LINC02882, MOG, FOLH1, CARNS1, LINC01949, LRP2	101039.0	0.035661376	5993.926929	0.675890367	0.002736209	24169.0	25713.0	50647.0	510.0	0.501261889	4.0	
+CS202210140_46	Oligo_45		CS202210140_469	Oligodendrocyte	Cluster							45	OLIGO				Oligo	Cerebral cortex: 20.0%, Basal forebrain: 18.5%, Midbrain: 15.8%	Human GPe: 8.4%, Human SN: 7.4%, Human SN-RN: 4.8%	LINC01608, OPALIN, LINC01792, SLCO1A2, LINC02882, FOLH1, MAL, ASPA, AC108721.2, SH3TC2	109325.0	0.029193504	5123.711502	0.690635811	0.002855982	26015.0	28274.0	54509.0	527.0	0.49859593	4.0	
+CS202210140_47	Oligo_46		CS202210140_469	Oligodendrocyte	Cluster							46	OLIGO				Oligo	Thalamus: 22.7%, Midbrain: 19.9%, Cerebral cortex: 13.7%	Human SN-RN: 9.7%, Human SN: 6.7%, Human CbDN: 5.9%	CNDP1, LINC01608, OPALIN, RNASE1, LINC01792, NKX6-2, MAG, PPP1R14A, CD9, TMEM98	60616.0	0.020621418	3740.694767	0.653366442	0.002339629	15228.0	22986.0	22111.0	291.0	0.37920681	4.0	
+CS202210140_48	Oligo_47		CS202210140_469	Oligodendrocyte	Cluster							47	OLIGO				Oligo	Thalamus: 24.9%, Cerebral cortex: 20.9%, Hippocampus: 13.8%	Human GPe: 5.4%, Human STH: 4.8%, Human MTG: 4.2%	OPALIN, LINC01608, CD9, LINC01792, RNASE1, CNDP1, AC110285.1, PLLP, NKX6-2, MAG	124837.0	0.011555942	3251.029334	0.650502399	0.004911437	32423.0	39193.0	52740.0	481.0	0.422470902	4.0	
+CS202210140_49	Oligo_48		CS202210140_469	Oligodendrocyte	Cluster							48	OLIGO		UBL		Oligo	Basal forebrain: 47.8%, Thalamus: 42.2%, Hypothalamus: 5.3%	Human GPe: 47.6%, Human CM-Pf: 36.8%, Human MN: 5.3%	AC061958.1, PDE4B-AS1, AL589787.1, LINC01608, MUSK, AC103831.1, AC026746.1, OPALIN, AC093330.1, SPATA22	2190.0	0.050799098	8773.686301	0.752514784	0.001809885	190.0	1969.0	31.0	0.0	0.899086758	3.0	
+CS202210140_50	Oligo_49		CS202210140_469	Oligodendrocyte	Cluster							49	OLIGO		UBL proSAAS		Oligo	Pons: 30.3%, Midbrain: 20.2%, Medulla: 12.2%	Human PnRF: 10.0%, Human SN: 7.6%, Human CbDN: 7.3%	MBOAT1, AC110809.1, AC008945.2, S100A1, AC114485.1, AC007106.2, LINC01445, LINC01549, AC004690.2, S100B	84282.0	0.041704645	7580.089912	0.670347523	0.001647304	23784.0	19762.0	40386.0	350.0	0.479177048	4.0	
+CS202210140_51	Oligo_50		CS202210140_469	Oligodendrocyte	Cluster							50	OLIGO				Oligo	Hypothalamus: 90.7%, Thalamus: 3.6%, Basal forebrain: 3.6%	Human MN: 90.7%, Human GPe: 3.6%, Human CM-Pf: 3.5%	PTCSC3, AC012494.2, AL591115.1, AC103831.1, AC093330.1, AL589787.1, AC061958.1, PDE4B-AS1, AC026746.1, AC108721.1	3044.0	0.038043685	13546.87155	0.824270298	0.000135339	138.0	2901.0	5.0	0.0	0.953022339	3.0	
+CS202210140_52	Bgl_51		CS202210140_493	Bergmann glia	Cluster							51	ASTRO		NUCB			Cerebellum: 95.8%, Pons: 1.9%, Medulla: 1.9%	Human CBV: 82.3%, Human CBL: 13.3%, Human MoAN: 1.3%	LINC01727, PAX3, AL627316.1, LCAT, AL355306.2, LINC01726, SMTN, AC098656.1, LGR6, AL449403.3	8041.0	0.015745573	5965.431041	0.70944008	0.000835408	2628.0	4013.0	1400.0	0.0	0.49906728	3.0	
+CS202210140_53	Astro_52		CS202210140_470	Astrocyte	Cluster							52	ASTRO		AGT		Astro	Cerebral cortex: 90.3%, Hypothalamus: 3.9%, Hippocampus: 2.2%	Human MTG: 14.9%, Human STG: 7.9%, Human TH-TL: 6.2%	LINC01727, FGFR3, LINC00499, ZNF98, PRDM16-DT, F3, GJB6, PAPLN, GJA1, OAF	25484.0	0.009044534	6091.770013	0.664276544	0.00286302	6251.0	4306.0	14724.0	203.0	0.57777429	4.0	
+CS202210140_54	Astro_53		CS202210140_470	Astrocyte	Cluster							53	ASTRO		AGT NUCB		Astro	Hippocampus: 96.3%, Cerebral cortex: 1.5%, Basal forebrain: 1.3%	Human CA4C-DGC: 23.9%, Human DGR-CA4Rpy: 18.3%, Human CA1: 18.1%	LINC00499, GLI3, OAF, ETNPPL, PRDM16-DT, CD38, AC097518.2, FGFR3, OBI1-AS1, AL137139.2	4803.0	0.010257266	7602.593171	0.705370522	0.001924502	1866.0	421.0	2511.0	5.0	0.522798251	4.0	
+CS202210140_55	Astro_54		CS202210140_470	Astrocyte	Cluster							54	ASTRO		AGT NUCB		Astro	Cerebral cortex: 38.8%, Hippocampus: 33.1%, Amygdala: 22.1%	Human A35r: 18.3%, Human CA1: 15.4%, Human Sub: 12.0%	ETNPPL, LINC00499, GLI3, OBI1-AS1, FGFR3, PAPLN, AC097518.2, GJA1, AL160272.2, RANBP3L	24168.0	0.012058014	8157.08623	0.717095968	0.001502852	3037.0	2500.0	18529.0	102.0	0.766674942	4.0	
+CS202210140_56	Astro_55		CS202210140_470	Astrocyte	Cluster							55	ASTRO		AGT NUCB PENK UBL proSAAS		Astro	Basal forebrain: 82.4%, Thalamus: 7.0%, Hypothalamus: 5.0%	Human Pu: 19.1%, Human CaB: 17.0%, Human SI: 15.7%	ETNPPL, AC097518.2, PRDM16-DT, AL445259.1, CD38, OBI1-AS1, FGFR3, F3, APOC1, EFEMP1	3576.0	0.014767626	8860.58613	0.706483509	0.003367572	943.0	356.0	2274.0	3.0	0.63590604	4.0	
+CS202210140_57	Astro_56		CS202210140_470	Astrocyte	Cluster							56	ASTRO		AGT		Astro	Hypothalamus: 30.0%, Thalamus: 21.5%, Amygdala: 14.3%	Human HTHso: 21.4%, Human VLN: 10.7%, Human HTHtub: 7.1%	TNC, GFAP, OBI1-AS1, FGFR3, GJA1, AC012405.1, EFEMP1, AQP4, SLC14A1, ETNPPL	1672.0	0.031610725	4833.809809	0.699126017	0.009679083	251.0	214.0	1201.0	6.0	0.718301435	4.0	
+CS202210140_58	Astro_57		CS202210140_470	Astrocyte	Cluster							57	ASTRO		AGT		Astro	Hippocampus: 66.8%, Basal forebrain: 25.3%, Cerebral cortex: 4.0%	Human DGR-CA4Rpy: 26.6%, Human SEP: 21.1%, Human DGU-CA4Upy: 19.9%	CD38, OBI1-AS1, FGFR3, AL627316.1, AC012405.1, AL137139.2, TNC, LINC02649, GLI3, SLC14A1	6925.0	0.019571141	6732.129531	0.750016096	0.00288358	3166.0	565.0	3178.0	16.0	0.458916968	4.0	
+CS202210140_59	Astro_58		CS202210140_470	Astrocyte	Cluster							58	ASTRO		AGT UBL proSAAS		Astro	Cerebral cortex: 57.1%, Hippocampus: 37.8%, Amygdala: 3.0%	Human CA4C-DGC: 9.8%, Human TH-TL: 5.9%, Human DGR-CA4Rpy: 5.6%	ID3, AQP4, GFAP, FGFR3, MLC1, F3, AGT, MT1G, AL137139.2, EMX2	8021.0	0.014537598	6046.717866	0.651156757	0.00240451	1830.0	1577.0	4584.0	30.0	0.571499813	4.0	
+CS202210140_60	Astro_59		CS202210140_470	Astrocyte	Cluster							59	ASTRO		ADM AGT		Astro	Pons: 36.2%, Cerebellum: 36.1%, Medulla: 10.9%	Human CbDN: 36.1%, Human PnEN: 13.6%, Human PnRF: 13.0%	LGR6, SDC4, ITPRID1, FGFR3, SLC14A1, SLC7A10, AC090809.1, GJB6, GFAP, PYGM	4062.0	0.024835917	3590.67676	0.659929447	0.003187609	1484.0	902.0	1674.0	2.0	0.41211226	4.0	
+CS202210140_61	Astro_60		CS202210140_470	Astrocyte	Cluster							60	ASTRO		AGT proSAAS		Astro	Thalamus: 37.1%, Midbrain: 31.3%, Pons: 16.8%	Human SN-RN: 10.3%, Human SN: 9.3%, Human Pul: 8.4%	TNC, SLC14A1, GJA1, SDC4, OBI1-AS1, HPSE2, RASL12, AC012405.1, EFEMP1, EDNRB	25366.0	0.016459484	4076.21722	0.663688726	0.00199342	10056.0	5599.0	9708.0	3.0	0.396436174	4.0	
+CS202210140_62	Astro_61		CS202210140_470	Astrocyte	Cluster							61	ASTRO		AGT proSAAS		Astro	Hippocampus: 47.7%, Cerebral cortex: 21.1%, Basal forebrain: 19.2%	Human CA1: 14.3%, Human Cla: 8.9%, Human CA4C-DGC: 6.7%	AC012405.1, TNC, GFAP, ID3, AC073941.1, AL627316.1, AQP4, CD38, CD44, ANGPTL4	13621.0	0.015317376	5270.155128	0.662391262	0.002221025	2884.0	3003.0	7636.0	98.0	0.560604948	4.0	
+CS202210140_63	Astro_62		CS202210140_470	Astrocyte	Cluster							62	ASTRO		ADM AGT proSAAS		Astro	Basal forebrain: 40.2%, Cerebellum: 19.3%, Midbrain: 16.2%	Human GPi: 30.1%, Human CbDN: 18.1%, Human SN: 10.1%	TNC, ANGPTL4, AC012405.1, GFAP, CPAMD8, AC073941.1, SLC14A1, GJA1, AL627316.1, CD44	24821.0	0.034812902	3797.311873	0.648652321	0.001442769	10439.0	5949.0	8416.0	17.0	0.42057129	4.0	
+CS202210140_64	Astro_63		CS202210140_470	Astrocyte	Cluster							63	ASTRO		AGT proSAAS		Astro	Medulla: 38.6%, Spinal cord: 20.0%, Pons: 15.4%	Human SpC: 20.0%, Human MoAN: 19.7%, Human IO: 9.6%	LINC01094, CD44, GFAP, AC012405.1, APLNR, AL627316.1, ID3, AL096709.1, AC073941.1, AEBP1	11325.0	0.019045396	3729.929095	0.664885231	0.001805531	1731.0	4079.0	5513.0	2.0	0.486799117	4.0	
+CS202210140_65	Astro_64		CS202210140_470	Astrocyte	Cluster							64	ASTRO		ADM AGT NAMPT NUCB SPX		Astro	Hypothalamus: 93.0%, Amygdala: 1.6%, Thalamus: 1.6%	Human MN: 92.5%, Human CEN: 1.2%, Human CA3R: 0.6%	AC112253.1, AC098656.1, NAA11, LINC01094, CD44, AL627316.1, AC012405.1, AC073941.1, AC072022.1, AC093535.1	1181.0	0.020759226	12870.84674	0.790287209	0.000196461	98.0	1024.0	59.0	0.0	0.867061812	3.0	
+CS202210140_66	Epen_65		CS202210140_471	Ependymal	Cluster							65	EPEN		AGT NTS NUCB UBL proSAAS			Midbrain: 28.4%, Hippocampus: 12.5%, Pons: 12.5%	Human PnEN: 10.2%, Human PAG-DR: 9.1%, Human PAG: 9.1%	DTHD1, ADGB, AC093689.1, CFAP157, AC013470.2, LMNTD1, RASSF9, TTC29, AL672167.1, MAP3K19	88.0	0.067970087	10655.55682	0.727639194	0.006119648	15.0	14.0	59.0	0.0	0.670454545	3.0	
+CS202210140_67	Epen_66		CS202210140_471	Ependymal	Cluster							66	CHRP EPEN		AGT NTS NUCB UBL proSAAS			Medulla: 83.1%, Pons: 16.0%, Midbrain: 0.4%	Human MoAN: 42.7%, Human MoSR: 22.2%, Human MoRF-MoEN: 18.2%	DTHD1, ADGB, RASSF9, AC020718.1, CFAP157, AC013470.2, ODF3B, FAM183A, C11orf88, AC093689.1	445.0	0.034611016	4724.469663	0.613781853	0.016055909	114.0	207.0	124.0	0.0	0.465168539	3.0	
+CS202210140_68	Epen_67		CS202210140_471	Ependymal	Cluster							67	CHRP EPEN		AGT NAMPT NTS NUCB UBL proSAAS			Medulla: 52.7%, Spinal cord: 22.3%, Pons: 17.8%	Human SpC: 22.3%, Human MoRF-MoEN: 21.5%, Human MoAN: 18.7%	DTHD1, ADGB, RASSF9, CFAP157, AC013470.2, AC093689.1, AL672167.1, TTC29, LRRC77P, ODF3B	651.0	0.033601669	5496.528418	0.693626879	0.021273365	121.0	117.0	413.0	0.0	0.634408602	3.0	
+CS202210140_69	Epen_68		CS202210140_471	Ependymal	Cluster							68	CHRP EPEN		AGT NTS NUCB UBL proSAAS			Medulla: 29.8%, Pons: 23.1%, Thalamus: 13.7%	Human MoRF-MoEN: 17.9%, Human PnEN: 12.2%, Human SEP: 11.5%	FAM183A, C11orf88, RASSF9, DTHD1, ODF3B, FOXJ1, CFAP157, ADGB, AC013470.2, CAPSL	459.0	0.048341478	6679.618736	0.51598976	0.020997325	179.0	112.0	168.0	0.0	0.389978214	3.0	
+CS202210140_70	Epen_69		CS202210140_471	Ependymal	Cluster							69	EPEN		AGT NAMPT NTS NUCB UBL proSAAS			Hippocampus: 69.2%, Basal forebrain: 11.2%, Amygdala: 7.6%	Human CA1: 17.4%, Human CA1U-CA2U-CA3U: 16.7%, Human CA4C-DGC: 11.0%	DTHD1, CFAP157, RASSF9, ADGB, FAM183A, C11orf88, AC013470.2, AC020718.1, FOXJ1, AC093689.1	724.0	0.022703475	7073.150552	0.580179333	0.020167044	190.0	211.0	323.0	0.0	0.446132597	3.0	
+CS202210140_71	Epen_70		CS202210140_471	Ependymal	Cluster							70	EPEN		AGT NTS NUCB proSAAS			Thalamus: 41.0%, Amygdala: 21.3%, Midbrain: 17.1%	Human MD: 22.3%, Human BNST: 21.0%, Human MD-Re: 7.1%	DTHD1, ADGB, AC020718.1, AL672167.1, AC013470.2, CFAP157, AC093689.1, CROCC2, RASSF9, TTC29	310.0	0.036063777	6642.470968	0.716551553	0.018316332	115.0	39.0	156.0	0.0	0.503225806	3.0	
+CS202210140_72	Epen_71		CS202210140_471	Ependymal	Cluster							71	EPEN		AGT NAMPT NTS NUCB proSAAS			Basal forebrain: 41.0%, Hypothalamus: 26.7%, Thalamus: 14.5%	Human CaB: 20.4%, Human SEP: 17.0%, Human BNST: 12.2%	DTHD1, ADGB, AC013470.2, AL672167.1, CFAP157, AC093689.1, CROCC2, TTC29, RASSF9, LMNTD1	476.0	0.029262218	8127.455882	0.728039003	0.00788007	80.0	99.0	297.0	0.0	0.62394958	3.0	
+CS202210140_73	Epen_72		CS202210140_471	Ependymal	Cluster							72	EPEN		AGT NUCB proSAAS			Hippocampus: 53.2%, Amygdala: 20.2%, Basal forebrain: 7.9%	Human CA1: 38.5%, Human Sub: 11.1%, Human BNST: 7.2%	DTHD1, ADGB, AC020718.1, CFAP157, AL672167.1, AC093689.1, AC013470.2, LMNTD1, TTC29, CROCC2	1027.0	0.019879627	6355.942551	0.754888215	0.012718224	112.0	84.0	831.0	0.0	0.809152872	3.0	
+CS202210140_74	Epen_73		CS202210140_471	Ependymal	Cluster							73	EPEN		AGT NTS NUCB proSAAS			Hippocampus: 85.9%, Amygdala: 8.2%, Basal forebrain: 1.9%	Human CA1: 69.3%, Human BL: 5.4%, Human DGU-CA4Upy: 3.0%	DTHD1, ADGB, AC020718.1, CFAP157, AL672167.1, RASSF9, AC093689.1, AC019330.1, AC013470.2, CROCC2	907.0	0.007868671	5698.481808	0.740719121	0.023189001	86.0	35.0	786.0	0.0	0.866593164	3.0	
+CS202210140_75	Epen_74		CS202210140_471	Ependymal	Cluster							74	CHRP EPEN		AGT NUCB proSAAS			Basal forebrain: 68.3%, Thalamus: 13.3%, Medulla: 7.3%	Human SEP: 67.8%, Human DGR-CA4Rpy: 6.0%, Human MD: 4.3%	DTHD1, ADGB, AC020718.1, AL672167.1, AC013470.2, CFAP157, AC093689.1, CROCC2, TTC29, RASSF9	795.0	0.021755453	6456.792453	0.718707	0.017902184	121.0	111.0	563.0	0.0	0.708176101	3.0	
+CS202210140_76	COP_75		CS202210140_468	Committed oligodendrocyte precursor	Cluster							75	CHRP EPEN NEUR		CHGB IGF NAMPT NUCB NXPH SCG UBL proSAAS			Medulla: 38.6%, Basal forebrain: 32.9%, Thalamus: 15.7%	Human SEP: 32.9%, Human MoSR: 21.4%, Human Pul: 12.9%	TTR, FOLR1, SOD3, IGFBP7, FBLN1, C1QTNF5, FBP2, ECRG4, CLIC6, SLC39A12	70.0	0.135026968	14971.87143	0.574148041	0.047887992	23.0	18.0	29.0	0.0	0.414285714	3.0	
+CS202210140_77	Chrp_76		CS202210140_472	Choroid plexus	Cluster							76	CHRP EPEN OLIGO		NAMPT NUCB UBL proSAAS			Basal forebrain: 55.4%, Medulla: 31.7%, Thalamus: 8.9%	Human SEP: 55.4%, Human MoSR: 23.8%, Human Pul: 7.9%	TTR, AC004052.1, CLIC6, AC016152.1, LINC00880, TRPV4, LMX1A, NWD1, C1QTNF5, ABCA4	101.0	0.108481848	11855.28713	0.710036719	0.027496556	31.0	11.0	58.0	1.0	0.574257426	4.0	
+CS202210140_78	Chrp_77		CS202210140_472	Choroid plexus	Cluster							77	CHRP		NUCB UBL proSAAS			Basal forebrain: 49.7%, Medulla: 46.2%, Hippocampus: 3.0%	Human SEP: 49.7%, Human MoAN: 33.9%, Human MoSR: 11.8%	TTR, CLIC6, TRPV4, AC016152.1, AC004052.1, LINC00880, ABCA4, SLC39A12, AC104809.2, C1QTNF5	1659.0	0.025331499	9414.277878	0.71133735	0.015456701	195.0	624.0	840.0	0.0	0.506329114	3.0	
+CS202210140_79	Chrp_78		CS202210140_472	Choroid plexus	Cluster							78	CHRP		NAMPT NUCB proSAAS			Basal forebrain: 92.5%, Medulla: 6.3%, Thalamus: 0.6%	Human SEP: 92.5%, Human MoAN: 4.9%, Human MoSR: 1.2%	AC004052.1, TRPV4, AC016152.1, LINC00880, CLIC6, NWD1, AP003500.1, LMX1A, ABCA4, SLC39A12	2653.0	0.029710548	18753.83641	0.825741263	0.006956236	36.0	159.0	2458.0	0.0	0.926498304	3.0	
+CS202210140_80	Chrp_79		CS202210140_472	Choroid plexus	Cluster							79	CHRP		NAMPT NUCB proSAAS			Basal forebrain: 94.0%, Medulla: 5.0%, Hippocampus: 0.5%	Human SEP: 94.0%, Human MoAN: 2.9%, Human MoSR: 1.6%	AC004052.1, TRPV4, AC016152.1, LINC00880, CLIC6, ABCA4, SLC5A5, NWD1, AP003500.1, LMX1A	383.0	0.033097258	18217.65796	0.816799846	0.009338223	6.0	17.0	360.0	0.0	0.939947781	3.0	
+CS202210140_81	Chrp_80		CS202210140_472	Choroid plexus	Cluster							80	CHRP		NAMPT NUCB proSAAS			Basal forebrain: 94.8%, Medulla: 4.5%, Hippocampus: 0.4%	Human SEP: 94.8%, Human MoAN: 3.0%, Human MoSR: 0.9%	AC016152.1, TRPV4, AC004052.1, CLIC6, SLC5A5, ABCA4, LINC00880, NWD1, AP003500.1, LMX1A	1347.0	0.032904603	20212.92056	0.819190708	0.005732283	13.0	57.0	1277.0	0.0	0.948032665	3.0	
+CS202210140_82	Chrp_81		CS202210140_472	Choroid plexus	Cluster							81	CHRP		NUCB proSAAS			Basal forebrain: 73.7%, Medulla: 25.6%, Pons: 0.6%	Human SEP: 73.7%, Human MoAN: 20.9%, Human MoSR: 3.9%	AC004052.1, TRPV4, AC016152.1, SLC5A5, CLIC6, ABCA4, LINC00880, NWD1, LMX1A, RBM47	1375.0	0.031980837	14308.84291	0.791962731	0.010971348	53.0	301.0	1021.0	0.0	0.742545455	3.0	
+CS202210140_83	Chrp_82		CS202210140_472	Choroid plexus	Cluster							82	CHRP		NAMPT NUCB proSAAS			Basal forebrain: 76.6%, Medulla: 22.2%, Pons: 1.2%	Human SEP: 76.6%, Human MoAN: 11.7%, Human MoSR: 10.5%	TRPV4, CLIC6, AC012078.2, LINC00113, LMX1A, SLC28A3, SLC5A5, FBP2, LINC00880, RBM47	171.0	0.029312468	11030.4269	0.75767242	0.019371127	18.0	20.0	133.0	0.0	0.777777778	3.0	
+CS202210140_464	Microglia				supercluster_term	CL:0000129	microglia	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PTPRC		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_465	Vascular				supercluster_term	CL:0002139	endothelial cell of vascular tree	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	CLDN5|ACTA2		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_466	Fibroblast				supercluster_term	CL:0000057	fibroblast			LUM		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_467	Oligodendrocyte precursor				supercluster_term	CL:0002453	oligodendrocyte precursor cell	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	PDGFRA|SOX10		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_468	Committed oligodendrocyte precursor				supercluster_term	CL:4023059	differentiation-committed oligodendrcyte precursor			SOX10|GPR17		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_469	Oligodendrocyte				supercluster_term	CL:0000128	oligodendrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	SOX10|PLP1		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_470	Astrocyte				supercluster_term	CL:0000127	astrocyte	Supported by marker expression and annotation transfer from Middle Temporal Gyrus dataset (Jorstad et al., 2023)	DOI:10.1126/science.adf6812	AQP4		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_471	Ependymal				supercluster_term	CL:0000065	ependymal cell			FOXJ1		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_472	Choroid plexus				supercluster_term	CL:0000706	choroid plexus epithelial cell			FOXJ1|TTR		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_493	Bergmann glia				supercluster_term	CL:0000644	Bergmann glial cell	GDF10 marks Bergmann glia in the mouse Other markers from adult human data		AQP4|GDF10|GABRG3|WIF1|LGR6		None	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	
+CS202210140_3490	Oligo_50_2996		CS202210140_51	Oligo_50	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	2996
+CS202210140_3491	Oligo_50_2997		CS202210140_51	Oligo_50	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	2997
+CS202210140_3492	Oligo_50_2998		CS202210140_51	Oligo_50	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	2998
+CS202210140_3493	Oligo_49_2999		CS202210140_50	Oligo_49	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	2999
+CS202210140_3494	Oligo_49_3000		CS202210140_50	Oligo_49	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3000
+CS202210140_3495	Oligo_49_3001		CS202210140_50	Oligo_49	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3001
+CS202210140_3496	Oligo_44_3002		CS202210140_45	Oligo_44	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3002
+CS202210140_3497	Oligo_44_3003		CS202210140_45	Oligo_44	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3003
+CS202210140_3498	Oligo_44_3004		CS202210140_45	Oligo_44	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3004
+CS202210140_3499	Oligo_44_3005		CS202210140_45	Oligo_44	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3005
+CS202210140_3500	COP_43_3006		CS202210140_44	COP_43	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3006
+CS202210140_3501	COP_42_3007		CS202210140_43	COP_42	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3007
+CS202210140_3502	COP_42_3008		CS202210140_43	COP_42	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3008
+CS202210140_3503	COP_42_3009		CS202210140_43	COP_42	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3009
+CS202210140_3504	COP_42_3010		CS202210140_43	COP_42	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3010
+CS202210140_3505	Oligo_40_3011		CS202210140_41	Oligo_40	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3011
+CS202210140_3506	Oligo_40_3012		CS202210140_41	Oligo_40	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3012
+CS202210140_3507	Oligo_40_3013		CS202210140_41	Oligo_40	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3013
+CS202210140_3508	COP_41_3014		CS202210140_42	COP_41	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3014
+CS202210140_3509	COP_41_3015		CS202210140_42	COP_41	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3015
+CS202210140_3510	Oligo_48_3016		CS202210140_49	Oligo_48	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3016
+CS202210140_3511	Oligo_48_3017		CS202210140_49	Oligo_48	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3017
+CS202210140_3512	Oligo_48_3018		CS202210140_49	Oligo_48	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3018
+CS202210140_3513	Oligo_48_3019		CS202210140_49	Oligo_48	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3019
+CS202210140_3514	Oligo_45_3020		CS202210140_46	Oligo_45	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3020
+CS202210140_3515	Oligo_45_3021		CS202210140_46	Oligo_45	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3021
+CS202210140_3516	Oligo_45_3022		CS202210140_46	Oligo_45	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3022
+CS202210140_3517	Oligo_47_3023		CS202210140_48	Oligo_47	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3023
+CS202210140_3518	Oligo_46_3024		CS202210140_47	Oligo_46	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3024
+CS202210140_3519	Oligo_46_3025		CS202210140_47	Oligo_46	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3025
+CS202210140_3520	Oligo_47_3026		CS202210140_48	Oligo_47	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3026
+CS202210140_3521	COP_39_3027		CS202210140_40	COP_39	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3027
+CS202210140_3522	COP_39_3028		CS202210140_40	COP_39	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3028
+CS202210140_3523	COP_39_3029		CS202210140_40	COP_39	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3029
+CS202210140_3524	COP_38_3030		CS202210140_39	COP_38	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3030
+CS202210140_3525	COP_38_3031		CS202210140_39	COP_38	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3031
+CS202210140_3526	COP_38_3032		CS202210140_39	COP_38	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3032
+CS202210140_3527	COP_37_3033		CS202210140_38	COP_37	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3033
+CS202210140_3528	COP_38_3034		CS202210140_39	COP_38	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3034
+CS202210140_3529	COP_37_3035		CS202210140_38	COP_37	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3035
+CS202210140_3530	COP_37_3036		CS202210140_38	COP_37	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3036
+CS202210140_3531	COP_37_3037		CS202210140_38	COP_37	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3037
+CS202210140_3532	COP_37_3038		CS202210140_38	COP_37	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3038
+CS202210140_3533	OPC_34_3039		CS202210140_35	OPC_34	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3039
+CS202210140_3534	OPC_34_3040		CS202210140_35	OPC_34	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3040
+CS202210140_3535	OPC_35_3041		CS202210140_36	OPC_35	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3041
+CS202210140_3536	OPC_35_3042		CS202210140_36	OPC_35	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3042
+CS202210140_3537	OPC_34_3043		CS202210140_35	OPC_34	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3043
+CS202210140_3538	OPC_33_3044		CS202210140_34	OPC_33	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3044
+CS202210140_3539	OPC_33_3045		CS202210140_34	OPC_33	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3045
+CS202210140_3540	OPC_33_3046		CS202210140_34	OPC_33	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3046
+CS202210140_3541	OPC_32_3047		CS202210140_33	OPC_32	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3047
+CS202210140_3542	OPC_32_3048		CS202210140_33	OPC_32	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3048
+CS202210140_3543	OPC_32_3049		CS202210140_33	OPC_32	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3049
+CS202210140_3544	OPC_32_3050		CS202210140_33	OPC_32	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3050
+CS202210140_3545	OPC_32_3051		CS202210140_33	OPC_32	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3051
+CS202210140_3546	OPC_36_3052		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3052
+CS202210140_3547	OPC_36_3053		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3053
+CS202210140_3548	OPC_36_3054		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3054
+CS202210140_3549	OPC_36_3055		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3055
+CS202210140_3550	OPC_36_3056		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3056
+CS202210140_3551	OPC_36_3057		CS202210140_37	OPC_36	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3057
+CS202210140_3552	Bgl_51_3058		CS202210140_52	Bgl_51	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3058
+CS202210140_3553	Astro_59_3059		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3059
+CS202210140_3554	Astro_59_3060		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3060
+CS202210140_3555	Astro_59_3061		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3061
+CS202210140_3556	Astro_59_3062		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3062
+CS202210140_3557	Astro_59_3063		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3063
+CS202210140_3558	Astro_59_3064		CS202210140_60	Astro_59	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3064
+CS202210140_3559	Astro_62_3065		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3065
+CS202210140_3560	Astro_60_3066		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3066
+CS202210140_3561	Astro_60_3067		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3067
+CS202210140_3562	Astro_60_3068		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3068
+CS202210140_3563	Astro_60_3069		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3069
+CS202210140_3564	Astro_60_3070		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3070
+CS202210140_3565	Astro_60_3071		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3071
+CS202210140_3566	Astro_60_3072		CS202210140_61	Astro_60	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3072
+CS202210140_3567	Astro_56_3073		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3073
+CS202210140_3568	Astro_56_3074		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3074
+CS202210140_3569	Astro_55_3075		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3075
+CS202210140_3570	Astro_56_3076		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3076
+CS202210140_3571	Astro_56_3077		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3077
+CS202210140_3572	Astro_56_3078		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3078
+CS202210140_3573	Astro_56_3079		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3079
+CS202210140_3574	Astro_54_3080		CS202210140_55	Astro_54	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3080
+CS202210140_3575	Astro_55_3081		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3081
+CS202210140_3576	Astro_55_3082		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3082
+CS202210140_3577	Astro_55_3083		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3083
+CS202210140_3578	Astro_55_3084		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3084
+CS202210140_3579	Astro_52_3085		CS202210140_53	Astro_52	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3085
+CS202210140_3580	Astro_52_3086		CS202210140_53	Astro_52	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3086
+CS202210140_3581	Astro_54_3087		CS202210140_55	Astro_54	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3087
+CS202210140_3582	Astro_53_3088		CS202210140_54	Astro_53	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3088
+CS202210140_3583	Astro_53_3089		CS202210140_54	Astro_53	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3089
+CS202210140_3584	Astro_53_3090		CS202210140_54	Astro_53	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3090
+CS202210140_3585	Astro_53_3091		CS202210140_54	Astro_53	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3091
+CS202210140_3586	Astro_55_3092		CS202210140_56	Astro_55	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3092
+CS202210140_3587	Astro_58_3093		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3093
+CS202210140_3588	Astro_58_3094		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3094
+CS202210140_3589	Astro_58_3095		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3095
+CS202210140_3590	Astro_57_3096		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3096
+CS202210140_3591	Astro_54_3097		CS202210140_55	Astro_54	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3097
+CS202210140_3592	Astro_57_3098		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3098
+CS202210140_3593	Astro_57_3099		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3099
+CS202210140_3594	Astro_57_3100		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3100
+CS202210140_3595	Astro_57_3101		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3101
+CS202210140_3596	Astro_57_3102		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3102
+CS202210140_3597	Astro_57_3103		CS202210140_58	Astro_57	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3103
+CS202210140_3598	Astro_61_3104		CS202210140_62	Astro_61	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3104
+CS202210140_3599	Astro_61_3105		CS202210140_62	Astro_61	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3105
+CS202210140_3600	Astro_61_3106		CS202210140_62	Astro_61	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3106
+CS202210140_3601	Astro_58_3107		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3107
+CS202210140_3602	Astro_58_3108		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3108
+CS202210140_3603	Astro_58_3109		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3109
+CS202210140_3604	Astro_56_3110		CS202210140_57	Astro_56	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3110
+CS202210140_3605	Astro_58_3111		CS202210140_59	Astro_58	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3111
+CS202210140_3606	Astro_62_3112		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3112
+CS202210140_3607	Astro_64_3113		CS202210140_65	Astro_64	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3113
+CS202210140_3608	Astro_64_3114		CS202210140_65	Astro_64	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3114
+CS202210140_3609	Astro_64_3115		CS202210140_65	Astro_64	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3115
+CS202210140_3610	Astro_61_3116		CS202210140_62	Astro_61	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3116
+CS202210140_3611	Astro_61_3117		CS202210140_62	Astro_61	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3117
+CS202210140_3612	Astro_63_3118		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3118
+CS202210140_3613	Astro_63_3119		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3119
+CS202210140_3614	Astro_63_3120		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3120
+CS202210140_3615	Astro_63_3121		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3121
+CS202210140_3616	Astro_62_3122		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3122
+CS202210140_3617	Astro_62_3123		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3123
+CS202210140_3618	Astro_62_3124		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3124
+CS202210140_3619	Astro_62_3125		CS202210140_63	Astro_62	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3125
+CS202210140_3620	Astro_63_3126		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3126
+CS202210140_3621	Astro_63_3127		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3127
+CS202210140_3622	Astro_63_3128		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3128
+CS202210140_3623	Epen_65_3129		CS202210140_66	Epen_65	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3129
+CS202210140_3624	Epen_65_3130		CS202210140_66	Epen_65	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3130
+CS202210140_3625	Astro_63_3131		CS202210140_64	Astro_63	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3131
+CS202210140_3626	Epen_66_3132		CS202210140_67	Epen_66	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3132
+CS202210140_3627	Epen_74_3133		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3133
+CS202210140_3628	Epen_74_3134		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3134
+CS202210140_3629	Epen_74_3135		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3135
+CS202210140_3630	Epen_74_3136		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3136
+CS202210140_3631	Epen_74_3137		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3137
+CS202210140_3632	Epen_71_3138		CS202210140_72	Epen_71	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3138
+CS202210140_3633	Epen_72_3139		CS202210140_73	Epen_72	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3139
+CS202210140_3634	Epen_74_3140		CS202210140_75	Epen_74	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3140
+CS202210140_3635	Epen_67_3141		CS202210140_68	Epen_67	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3141
+CS202210140_3636	Epen_67_3142		CS202210140_68	Epen_67	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3142
+CS202210140_3637	Epen_67_3143		CS202210140_68	Epen_67	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3143
+CS202210140_3638	Epen_67_3144		CS202210140_68	Epen_67	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3144
+CS202210140_3639	Epen_68_3145		CS202210140_69	Epen_68	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3145
+CS202210140_3640	Epen_68_3146		CS202210140_69	Epen_68	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3146
+CS202210140_3641	Epen_68_3147		CS202210140_69	Epen_68	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3147
+CS202210140_3642	Epen_71_3148		CS202210140_72	Epen_71	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3148
+CS202210140_3643	Epen_71_3149		CS202210140_72	Epen_71	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3149
+CS202210140_3644	Epen_69_3150		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3150
+CS202210140_3645	Epen_70_3151		CS202210140_71	Epen_70	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3151
+CS202210140_3646	Epen_70_3152		CS202210140_71	Epen_70	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3152
+CS202210140_3647	Epen_70_3153		CS202210140_71	Epen_70	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3153
+CS202210140_3648	Epen_70_3154		CS202210140_71	Epen_70	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3154
+CS202210140_3649	Epen_69_3155		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3155
+CS202210140_3650	Epen_72_3156		CS202210140_73	Epen_72	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3156
+CS202210140_3651	Epen_72_3157		CS202210140_73	Epen_72	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3157
+CS202210140_3652	Epen_73_3158		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3158
+CS202210140_3653	Epen_73_3159		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3159
+CS202210140_3654	Epen_73_3160		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3160
+CS202210140_3655	Epen_73_3161		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3161
+CS202210140_3656	Epen_73_3162		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3162
+CS202210140_3657	Epen_73_3163		CS202210140_74	Epen_73	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3163
+CS202210140_3658	Epen_69_3164		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3164
+CS202210140_3659	Epen_69_3165		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3165
+CS202210140_3660	Epen_69_3166		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3166
+CS202210140_3661	Epen_69_3167		CS202210140_70	Epen_69	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3167
+CS202210140_3662	Epen_68_3168		CS202210140_69	Epen_68	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3168
+CS202210140_3663	Epen_66_3169		CS202210140_67	Epen_66	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3169
+CS202210140_3664	Epen_66_3170		CS202210140_67	Epen_66	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3170
+CS202210140_3665	Epen_66_3171		CS202210140_67	Epen_66	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3171
+CS202210140_3666	Epen_68_3172		CS202210140_69	Epen_68	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3172
+CS202210140_3667	Chrp_82_3173		CS202210140_83	Chrp_82	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3173
+CS202210140_3668	Chrp_77_3174		CS202210140_78	Chrp_77	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3174
+CS202210140_3669	Chrp_82_3175		CS202210140_83	Chrp_82	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3175
+CS202210140_3670	Chrp_81_3176		CS202210140_82	Chrp_81	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3176
+CS202210140_3671	Chrp_81_3177		CS202210140_82	Chrp_81	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3177
+CS202210140_3672	Chrp_77_3178		CS202210140_78	Chrp_77	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3178
+CS202210140_3673	Chrp_77_3179		CS202210140_78	Chrp_77	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3179
+CS202210140_3674	Chrp_76_3180		CS202210140_77	Chrp_76	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3180
+CS202210140_3675	Chrp_81_3181		CS202210140_82	Chrp_81	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3181
+CS202210140_3676	Chrp_78_3182		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3182
+CS202210140_3677	Chrp_78_3183		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3183
+CS202210140_3678	Chrp_78_3184		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3184
+CS202210140_3679	Chrp_78_3185		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3185
+CS202210140_3680	Chrp_78_3186		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3186
+CS202210140_3681	Chrp_80_3187		CS202210140_81	Chrp_80	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3187
+CS202210140_3682	Chrp_77_3188		CS202210140_78	Chrp_77	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3188
+CS202210140_3683	Chrp_79_3189		CS202210140_80	Chrp_79	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3189
+CS202210140_3684	Chrp_79_3190		CS202210140_80	Chrp_79	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3190
+CS202210140_3685	Chrp_78_3191		CS202210140_79	Chrp_78	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3191
+CS202210140_3686	Chrp_82_3192		CS202210140_83	Chrp_82	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3192
+CS202210140_3687	Chrp_76_3193		CS202210140_77	Chrp_76	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3193
+CS202210140_3688	Chrp_76_3194		CS202210140_77	Chrp_76	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3194
+CS202210140_3689	COP_75_3195		CS202210140_76	COP_75	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3195
+CS202210140_3690	COP_75_3196		CS202210140_76	COP_75	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3196
+CS202210140_3691	VendPLVAP_13_3197		CS202210140_14	VendPLVAP_13	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3197
+CS202210140_3692	VendAC_14_3198		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3198
+CS202210140_3693	VendAC_14_3199		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3199
+CS202210140_3694	VendAC_14_3200		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3200
+CS202210140_3695	VendAC_14_3201		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3201
+CS202210140_3696	VendAC_14_3202		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3202
+CS202210140_3697	VendAC_14_3203		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3203
+CS202210140_3698	VendC_15_3204		CS202210140_16	VendC_15	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3204
+CS202210140_3699	VendC_15_3205		CS202210140_16	VendC_15	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3205
+CS202210140_3700	VendC_15_3206		CS202210140_16	VendC_15	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3206
+CS202210140_3701	VendC_15_3207		CS202210140_16	VendC_15	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3207
+CS202210140_3702	VendC_15_3208		CS202210140_16	VendC_15	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3208
+CS202210140_3703	VendVC_16_3209		CS202210140_17	VendVC_16	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3209
+CS202210140_3704	VendVC_16_3210		CS202210140_17	VendVC_16	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3210
+CS202210140_3705	VendVC_16_3211		CS202210140_17	VendVC_16	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3211
+CS202210140_3706	VendVC_16_3212		CS202210140_17	VendVC_16	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3212
+CS202210140_3707	VendVC_16_3213		CS202210140_17	VendVC_16	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3213
+CS202210140_3708	VendV_17_3214		CS202210140_18	VendV_17	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3214
+CS202210140_3709	VendV_17_3215		CS202210140_18	VendV_17	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3215
+CS202210140_3710	VendAC_14_3216		CS202210140_15	VendAC_14	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3216
+CS202210140_3711	Vsmc_19_3217		CS202210140_20	Vsmc_19	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3217
+CS202210140_3712	VendA_18_3218		CS202210140_19	VendA_18	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3218
+CS202210140_3713	VendA_18_3219		CS202210140_19	VendA_18	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3219
+CS202210140_3714	VendA_18_3220		CS202210140_19	VendA_18	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3220
+CS202210140_3715	VendA_18_3221		CS202210140_19	VendA_18	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3221
+CS202210140_3716	VendA_18_3222		CS202210140_19	VendA_18	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3222
+CS202210140_3717	Vsmc_20_3223		CS202210140_21	Vsmc_20	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3223
+CS202210140_3718	Vsmc_20_3224		CS202210140_21	Vsmc_20	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3224
+CS202210140_3719	Vsmc_20_3225		CS202210140_21	Vsmc_20	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3225
+CS202210140_3720	Vsmc_20_3226		CS202210140_21	Vsmc_20	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3226
+CS202210140_3721	Vsmc_20_3227		CS202210140_21	Vsmc_20	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3227
+CS202210140_3722	Vsmc_19_3228		CS202210140_20	Vsmc_19	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3228
+CS202210140_3723	Per_21_3229		CS202210140_22	Per_21	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3229
+CS202210140_3724	Per_21_3230		CS202210140_22	Per_21	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3230
+CS202210140_3725	Per_21_3231		CS202210140_22	Per_21	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3231
+CS202210140_3726	Per_21_3232		CS202210140_22	Per_21	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3232
+CS202210140_3727	Per_21_3233		CS202210140_22	Per_21	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3233
+CS202210140_3728	Per_22_3234		CS202210140_23	Per_22	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3234
+CS202210140_3729	Per_22_3235		CS202210140_23	Per_22	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3235
+CS202210140_3730	Per_23_3236		CS202210140_24	Per_23	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3236
+CS202210140_3731	Per_23_3237		CS202210140_24	Per_23	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3237
+CS202210140_3732	Fbl_30_3238		CS202210140_31	Fbl_30	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3238
+CS202210140_3733	Fbl_30_3239		CS202210140_31	Fbl_30	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3239
+CS202210140_3734	Fbl_25_3240		CS202210140_26	Fbl_25	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3240
+CS202210140_3735	Fbl_26_3241		CS202210140_27	Fbl_26	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3241
+CS202210140_3736	Fbl_26_3242		CS202210140_27	Fbl_26	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3242
+CS202210140_3737	Fbl_26_3243		CS202210140_27	Fbl_26	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3243
+CS202210140_3738	Fbl_28_3244		CS202210140_29	Fbl_28	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3244
+CS202210140_3739	Fbl_28_3245		CS202210140_29	Fbl_28	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3245
+CS202210140_3740	Fbl_26_3246		CS202210140_27	Fbl_26	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3246
+CS202210140_3741	Fbl_27_3247		CS202210140_28	Fbl_27	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3247
+CS202210140_3742	Fbl_27_3248		CS202210140_28	Fbl_27	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3248
+CS202210140_3743	Fbl_25_3249		CS202210140_26	Fbl_25	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3249
+CS202210140_3744	Fbl_25_3250		CS202210140_26	Fbl_25	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3250
+CS202210140_3745	Fbl_25_3251		CS202210140_26	Fbl_25	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3251
+CS202210140_3746	Fbl_28_3252		CS202210140_29	Fbl_28	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3252
+CS202210140_3747	Fbl_28_3253		CS202210140_29	Fbl_28	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3253
+CS202210140_3748	Fbl_28_3254		CS202210140_29	Fbl_28	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3254
+CS202210140_3749	Fbl_24_3255		CS202210140_25	Fbl_24	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3255
+CS202210140_3750	Fbl_29_3256		CS202210140_30	Fbl_29	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3256
+CS202210140_3751	Fbl_24_3257		CS202210140_25	Fbl_24	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3257
+CS202210140_3752	Fbl_31_3258		CS202210140_32	Fbl_31	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3258
+CS202210140_3753	Fbl_31_3259		CS202210140_32	Fbl_31	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3259
+CS202210140_3754	Fbl_31_3260		CS202210140_32	Fbl_31	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3260
+CS202210140_3755	Fbl_31_3261		CS202210140_32	Fbl_31	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3261
+CS202210140_3756	Fbl_30_3262		CS202210140_31	Fbl_30	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3262
+CS202210140_3757	Mgl_12_3263		CS202210140_13	Mgl_12	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3263
+CS202210140_3758	Mgl_12_3264		CS202210140_13	Mgl_12	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3264
+CS202210140_3759	Mgl_12_3265		CS202210140_13	Mgl_12	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3265
+CS202210140_3760	Mgl_12_3266		CS202210140_13	Mgl_12	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3266
+CS202210140_3761	Mgl_4_3267		CS202210140_5	Mgl_4	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3267
+CS202210140_3762	Mgl_4_3268		CS202210140_5	Mgl_4	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3268
+CS202210140_3763	Mgl_4_3269		CS202210140_5	Mgl_4	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3269
+CS202210140_3764	Mgl_6_3270		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3270
+CS202210140_3765	Mgl_6_3271		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3271
+CS202210140_3766	Mgl_6_3272		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3272
+CS202210140_3767	Mgl_6_3273		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3273
+CS202210140_3768	Mgl_6_3274		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3274
+CS202210140_3769	Mgl_6_3275		CS202210140_7	Mgl_6	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3275
+CS202210140_3770	Mgl_7_3276		CS202210140_8	Mgl_7	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3276
+CS202210140_3771	Mgl_7_3277		CS202210140_8	Mgl_7	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3277
+CS202210140_3772	Mgl_8_3278		CS202210140_9	Mgl_8	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3278
+CS202210140_3773	Mgl_9_3279		CS202210140_10	Mgl_9	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3279
+CS202210140_3774	Mgl_7_3280		CS202210140_8	Mgl_7	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3280
+CS202210140_3775	Mgl_10_3281		CS202210140_11	Mgl_10	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3281
+CS202210140_3776	Mgl_8_3282		CS202210140_9	Mgl_8	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3282
+CS202210140_3777	Mgl_8_3283		CS202210140_9	Mgl_8	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3283
+CS202210140_3778	Mgl_8_3284		CS202210140_9	Mgl_8	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3284
+CS202210140_3779	Mgl_11_3285		CS202210140_12	Mgl_11	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3285
+CS202210140_3780	Mgl_11_3286		CS202210140_12	Mgl_11	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3286
+CS202210140_3781	Mgl_11_3287		CS202210140_12	Mgl_11	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3287
+CS202210140_3782	Mgl_11_3288		CS202210140_12	Mgl_11	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3288
+CS202210140_3783	Mgl_9_3289		CS202210140_10	Mgl_9	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3289
+CS202210140_3784	Mgl_11_3290		CS202210140_12	Mgl_11	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3290
+CS202210140_3785	Mgl_5_3291		CS202210140_6	Mgl_5	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3291
+CS202210140_3786	Mgl_5_3292		CS202210140_6	Mgl_5	subcluster								[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	[]	3292
