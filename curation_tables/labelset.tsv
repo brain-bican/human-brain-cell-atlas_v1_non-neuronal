@@ -1,3 +1,4 @@
 name	description	rank	annotation_method	automated_annotation_algorithm_name	automated_annotation_algorithm_version	automated_annotation_algorithm_repo_url	automated_annotation_reference_location
-Cluster		0					
-supercluster_term		1					
+subcluster	The finest level of cell type definition in the human whole brain taxonomy. It is defined by applying Louvain clustering independently for each cluster. Cells within a subcluster share similar characteristics and belong to the same cluster. In some cases subclusters are distinct, and in other cases represent cell states or gradients within the same cluster.	0					
+Cluster	An intermediate level of cell type definitions in the human whole brain taxonomy. It is defined by applying Louvain clustering independently for each supercluster. All cells within a subcluster belong to the same cluster. Clusters group together similar subclusters and are highly distinct from one another.	1					
+supercluster_term	The top level of cell type definition in the human whole brain taxonomy. It is defined using Louvain clustering (Cytograph) with most superclusters determined by broad brain region and neurotransmitter type. All cells within a cluster belong to the same supercluster. Supercluster provides a broader characterization of cell types.	2					
