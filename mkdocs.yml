@@ -1,4 +1,10 @@
 site_name: Human Brain Cell Atlas v1.0
-theme: readthedocs
+theme:
+    name: bootstrap4
+    next_previous: true
 repo_url: https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal
 docs_dir: docs
+
+plugins:
+    - bootstrap4-blockquotes
+    - bootstrap4-tables

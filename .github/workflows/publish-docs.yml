@@ -18,8 +18,21 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v3
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.9
+
+      - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files mkdocs-theme-bootstrap4
+
+      - run: pip install mkdocs-material
+
+      - name: Build MkDocs site
+        run: mkdocs build
+        
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
