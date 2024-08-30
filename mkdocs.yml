@@ -1,3 +1,4 @@
 site_name: Human Brain Cell Atlas v1.0
 theme: readthedocs
 repo_url: https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal
+docs_dir: docs
