@@ -1,3 +1,6 @@
+---
+weight: -10
+---
 ## Human Brain Cell Atlas v1.0 Taxonomy (Non-Neuronal)
 
 Atlas of human primary motor cortex (M1), developed in collaboration with the BRAIN Initiative Cell Census Network (BICCN).
