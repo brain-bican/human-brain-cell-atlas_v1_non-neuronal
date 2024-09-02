@@ -3,3 +3,12 @@ theme:
     name: cinder
 repo_url: https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal
 docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Cell Sets: cell_sets
+
+plugins:
+  - search
+  - include_dir_to_nav
+    file_name_as_title: true
