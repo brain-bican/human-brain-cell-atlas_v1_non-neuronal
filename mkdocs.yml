@@ -4,7 +4,7 @@ repo_name: brain-bican/human-brain-cell-atlas_v1_non-neuronal
 docs_dir: docs
 
 nav:
-  - Home: index.md
+  - Taxonomy: index.md
   - Cell Sets: cell_sets
 
 theme:
