@@ -35,7 +35,5 @@ theme:
 
 plugins:
   - search
-  - include_dir_to_nav:
-      file_name_as_title: true
-      sort_file: false
-      sort_directory: false
+  - include_dir_to_nav
+  - mkdocs-nav-weight
