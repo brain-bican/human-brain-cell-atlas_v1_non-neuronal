@@ -29,16 +29,6 @@ jobs:
         with:
             python-version: 3.x
 
-    #   - run: pip install --upgrade pip && pip install mkdocs-material mkdocs-include-dir-to-nav mkdocs-nav-weight
       - run: pip install mkdocs-material mkdocs-include-dir-to-nav mkdocs-nav-weight==0.2.0
 
       - run: mkdocs gh-deploy --force
-
-    #   - name: Build MkDocs site
-    #     run: mkdocs build
-
-    #   - name: Deploy to GitHub Pages
-    #     uses: peaceiris/actions-gh-pages@v3
-    #     with:
-    #       github_token: ${{ secrets.GITHUB_TOKEN }}
-    #       publish_dir: ./site
