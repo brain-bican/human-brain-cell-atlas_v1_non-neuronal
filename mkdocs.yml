@@ -1,14 +1,38 @@
 site_name: Human Brain Cell Atlas v1.0
-theme:
-    name: cinder
 repo_url: https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal
+repo_name: brain-bican/human-brain-cell-atlas_v1_non-neuronal
 docs_dir: docs
 
 nav:
   - Home: index.md
   - Cell Sets: cell_sets
 
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 plugins:
   - search
   - include_dir_to_nav:
       file_name_as_title: true
+      sort_file: false
