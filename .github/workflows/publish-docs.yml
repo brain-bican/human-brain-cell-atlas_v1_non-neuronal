@@ -30,7 +30,7 @@ jobs:
             python-version: 3.x
 
     #   - run: pip install --upgrade pip && pip install mkdocs-material mkdocs-include-dir-to-nav mkdocs-nav-weight
-      - run: pip install mkdocs-material mkdocs-nav-weight
+      - run: pip install mkdocs-material mkdocs-nav-weight==0.2.0
 
       - run: mkdocs gh-deploy --force
 
