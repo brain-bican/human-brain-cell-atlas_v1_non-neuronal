@@ -24,13 +24,13 @@ jobs:
         with:
             python-version: 3.9
 
-      - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files mkdocs-theme-bootstrap4
+      - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files mkdocs-cinder
 
       - run: pip install mkdocs-material
 
       - name: Build MkDocs site
         run: mkdocs build
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
