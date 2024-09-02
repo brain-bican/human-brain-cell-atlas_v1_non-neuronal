@@ -30,8 +30,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  favicon: assets/icon.png
-  logo: assets/icon.png
+  favicon: assets/logo.webp
+  logo: assets/logo.webp
 
 plugins:
   - search
