@@ -21,6 +21,8 @@ First draft atlas of human brain transcriptomic cell types: The human brain dire
 
 ---
 
+**Base PURL:** https://purl.brain-bican.org/taxonomy/CS202210140/CS202210140_non-neuronal/
+
 **Cell Annotation Schema Version:** 0.2b0
 
 **Cell Annotation Timestamp:** 
