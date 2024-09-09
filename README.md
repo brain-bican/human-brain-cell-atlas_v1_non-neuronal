@@ -6,6 +6,7 @@ First draft atlas of human brain transcriptomic cell types: The human brain dire
 
 Reference: https://doi.org/10.1126/science.add7046   
 CellxGene collection: https://cellxgene.cziscience.com/collections/283d65eb-dd53-496d-adb7-7570c7caa443
+PURL: https://purl.brain-bican.org/taxonomy/CS202210140/CS202210140_non-neuronal/
 
 ## Stable release versions
 
@@ -16,9 +17,12 @@ https://purl.brain-bican.org/taxonomy/CCN202210140/CS202210140_non-neuronal.json
 ## Curate taxonomy
 Curate your taxonomy in 3 simple steps:
 
-1. [Get Taxonomy Development Tools](#get-taxonomy-development-tools)  
-1. [Load your data](#load-your-data)  
-1. [Browse](#browse)  
+- [Human Brain Cell Atlas v1.0 (Non-neuronal) (CS202210140)](#human-brain-cell-atlas-v10-non-neuronal-cs202210140)
+  - [Stable release versions](#stable-release-versions)
+  - [Curate taxonomy](#curate-taxonomy)
+    - [Get Taxonomy Development Tools](#get-taxonomy-development-tools)
+    - [Load your data](#load-your-data)
+    - [Browse](#browse)
 
 ### Get Taxonomy Development Tools 
 
