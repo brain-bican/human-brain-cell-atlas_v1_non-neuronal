@@ -1,0 +1,8762 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../CS202210140_50/">
+      
+      
+        <link rel="next" href="../CS202210140_52/">
+      
+      
+      <link rel="icon" href="../../assets/logo.webp">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
+    
+    
+      
+        <title>CS202210140_51 - Human Brain Cell Atlas v1.0</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#oligo_50-cs202210140_51" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Human Brain Cell Atlas v1.0" class="md-header__button md-logo" aria-label="Human Brain Cell Atlas v1.0" data-md-component="logo">
+      
+  <img src="../../assets/logo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Human Brain Cell Atlas v1.0
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CS202210140_51
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    brain-bican/human-brain-cell-atlas_v1_non-neuronal
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Taxonomy
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../CS202210140_5/" class="md-tabs__link">
+          
+  
+  Cell Sets
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Human Brain Cell Atlas v1.0" class="md-nav__button md-logo" aria-label="Human Brain Cell Atlas v1.0" data-md-component="logo">
+      
+  <img src="../../assets/logo.webp" alt="logo">
+
+    </a>
+    Human Brain Cell Atlas v1.0
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    brain-bican/human-brain-cell-atlas_v1_non-neuronal
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taxonomy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Cell Sets
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cell Sets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_12/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_12
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_13/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_13
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_14/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_14
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_15/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_15
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_16
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_17
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_18/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_18
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_19
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_20
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_21
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_22/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_22
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_23/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_23
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_24
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_25
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_26
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_27/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_27
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_28/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_28
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_29
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_30/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_30
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_31/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_31
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_32/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_32
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_33/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_33
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_34/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_34
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_35/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_35
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_36/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_36
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_37/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_37
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_38/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_38
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_39/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_39
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_40/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_40
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_41/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_41
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_42/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_42
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_43/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_43
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_44/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_44
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_45/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_45
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_46/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_46
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_47/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_47
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_48/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_48
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_49/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_49
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_50/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_50
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    CS202210140_51
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_51
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#oligo_50-cs202210140_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      Oligo_50 (CS202210140_51)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_52/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_52
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_53/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_53
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_54/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_54
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_55/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_55
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_56/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_56
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_57/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_57
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_58/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_58
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_59/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_59
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_60/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_60
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_61/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_61
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_62/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_62
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_63/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_63
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_64/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_64
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_65/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_65
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_66/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_66
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_67/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_67
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_68/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_68
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_69/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_69
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_70/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_70
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_71/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_71
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_72/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_72
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_73/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_73
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_74/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_74
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_75/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_75
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_76/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_76
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_77/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_77
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_78/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_78
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_79/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_79
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_80/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_80
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_81/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_81
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_82/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_82
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_83
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_464/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_464
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_465/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_465
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_466/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_466
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_467/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_467
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_468/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_468
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_469/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_469
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_470/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_470
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_471/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_471
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_472/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_472
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_493/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_493
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3490/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3490
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3491/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3491
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3492/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3492
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3493/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3493
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3494/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3494
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3495/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3495
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3496/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3496
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3497/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3497
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3498/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3498
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3499/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3499
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3500/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3500
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3501/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3501
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3502/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3502
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3503/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3503
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3504/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3504
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3505/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3505
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3506/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3506
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3507/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3507
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3508/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3508
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3509/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3509
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3510/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3510
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3511/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3511
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3512/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3512
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3513/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3513
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3514/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3514
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3515/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3515
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3516/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3516
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3517/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3517
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3518/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3518
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3519/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3519
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3520/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3520
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3521/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3521
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3522/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3522
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3523/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3523
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3524/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3524
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3525/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3525
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3526/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3526
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3527/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3527
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3528/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3528
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3529/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3529
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3530/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3530
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3531/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3531
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3532/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3532
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3533/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3533
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3534/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3534
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3535/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3535
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3536/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3536
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3537/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3537
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3538/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3538
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3539/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3539
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3540/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3540
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3541/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3541
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3542/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3542
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3543/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3543
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3544/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3544
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3545/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3545
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3546/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3546
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3547/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3547
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3548/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3548
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3549/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3549
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3550/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3550
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3551/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3551
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3552/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3552
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3553/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3553
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3554/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3554
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3555/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3555
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3556/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3556
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3557/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3557
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3558/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3558
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3559/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3559
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3560/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3560
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3561/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3561
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3562/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3562
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3563/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3563
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3564/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3564
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3565/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3565
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3566/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3566
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3567/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3567
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3568/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3568
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3569/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3569
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3570/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3570
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3571/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3571
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3572/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3572
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3573/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3573
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3574/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3574
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3575/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3575
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3576/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3576
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3577/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3577
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3578/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3578
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3579/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3579
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3580/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3580
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3581/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3581
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3582/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3582
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3583/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3583
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3584/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3584
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3585/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3585
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3586/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3586
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3587/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3587
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3588/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3588
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3589/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3589
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3590/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3590
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3591/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3591
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3592/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3592
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3593/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3593
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3594/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3594
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3595/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3595
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3596/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3596
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3597/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3597
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3598/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3598
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3599/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3599
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3600/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3600
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3601/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3601
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3602/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3602
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3603/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3603
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3604/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3604
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3605/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3605
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3606/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3606
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3607/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3607
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3608/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3608
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3609/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3609
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3610/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3610
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3611/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3611
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3612/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3612
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3613/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3613
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3614/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3614
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3615/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3615
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3616/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3616
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3617/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3617
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3618/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3618
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3619/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3619
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3620/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3620
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3621/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3621
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3622/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3622
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3623/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3623
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3624/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3624
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3625/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3625
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3626/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3626
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3627/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3627
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3628/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3628
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3629/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3629
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3630/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3630
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3631/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3631
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3632/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3632
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3633/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3633
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3634/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3634
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3635/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3635
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3636/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3636
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3637/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3637
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3638/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3638
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3639/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3639
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3640/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3640
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3641/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3641
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3642/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3642
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3643/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3643
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3644/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3644
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3645/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3645
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3646/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3646
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3647/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3647
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3648/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3648
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3649/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3649
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3650/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3650
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3651/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3651
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3652/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3652
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3653/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3653
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3654/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3654
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3655/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3655
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3656/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3656
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3657/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3657
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3658/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3658
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3659/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3659
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3660/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3660
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3661/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3661
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3662/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3662
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3663/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3663
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3664/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3664
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3665/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3665
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3666/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3666
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3667/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3667
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3668/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3668
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3669/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3669
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3670/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3670
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3671/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3671
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3672/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3672
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3673/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3673
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3674/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3674
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3675/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3675
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3676/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3676
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3677/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3677
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3678/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3678
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3679/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3679
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3680/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3680
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3681/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3681
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3682/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3682
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3683/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3683
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3684/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3684
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3685/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3685
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3686/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3686
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3687/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3687
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3688/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3688
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3689/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3689
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3690/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3690
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3691/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3691
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3692/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3692
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3693/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3693
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3694/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3694
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3695/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3695
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3696/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3696
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3697/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3697
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3698/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3698
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3699/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3699
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3700/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3700
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3701/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3701
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3702/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3702
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3703/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3703
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3704/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3704
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3705/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3705
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3706/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3706
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3707/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3707
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3708/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3708
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3709/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3709
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3710/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3710
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3711/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3711
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3712/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3712
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3713/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3713
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3714/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3714
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3715/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3715
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3716/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3716
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3717/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3717
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3718/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3718
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3719/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3719
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3720/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3720
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3721/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3721
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3722/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3722
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3723/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3723
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3724/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3724
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3725/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3725
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3726/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3726
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3727/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3727
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3728/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3728
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3729/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3729
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3730/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3730
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3731/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3731
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3732/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3732
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3733/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3733
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3734/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3734
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3735/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3735
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3736/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3736
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3737/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3737
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3738/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3738
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3739/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3739
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3740/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3740
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3741/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3741
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3742/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3742
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3743/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3743
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3744/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3744
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3745/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3745
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3746/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3746
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3747/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3747
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3748/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3748
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3749/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3749
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3750/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3750
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3751/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3751
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3752/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3752
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3753/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3753
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3754/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3754
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3755/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3755
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3756/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3756
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3757/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3757
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3758/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3758
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3759/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3759
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3760/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3760
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3761/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3761
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3762/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3762
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3763/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3763
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3764/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3764
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3765/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3765
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3766/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3766
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3767/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3767
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3768/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3768
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3769/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3769
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3770/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3770
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3771/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3771
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3772/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3772
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3773/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3773
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3774/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3774
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3775/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3775
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3776/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3776
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3777/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3777
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3778/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3778
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3779/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3779
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3780/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3780
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3781/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3781
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3782/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3782
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3783/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3783
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3784/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3784
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3785/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3785
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS202210140_3786/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS202210140_3786
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#oligo_50-cs202210140_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      Oligo_50 (CS202210140_51)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>CS202210140_51</h1>
+
+<h2 id="oligo_50-cs202210140_51">Oligo_50 (CS202210140_51)</h2>
+<p><b>Hierarchy: </b>
+<a href="../CS202210140_469">CS202210140_469</a> &gt;
+<a href="../CS202210140_51">CS202210140_51</a></p>
+<p><strong>PURL:</strong> <a href="https://purl.brain-bican.org/taxonomy/CS202210140/CS202210140_non-neuronal/CS202210140_51">https://purl.brain-bican.org/taxonomy/CS202210140/CS202210140_non-neuronal/CS202210140_51</a></p>
+<hr />
+<p><strong>Labelset:</strong> Cluster (Rank: 1)</p>
+<p><strong>Parent Cell Set:</strong> Oligodendrocyte (<a href="../CS202210140_469">CS202210140_469</a>)</p>
+<p><strong>Cell Ontology Term:</strong> </p>
+<hr />
+<p><strong>Transferred annotations:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Transferred cell label</th>
+<th>Source taxonomy</th>
+<th>Source node accession</th>
+<th>Algorithm name</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oligo</td>
+<td><a href="https://purl.brain-bican.org/taxonomy/AIT_MTG/">https://purl.brain-bican.org/taxonomy/AIT_MTG/AIT_MTG.json</a></td>
+<td><a href="https://purl.brain-bican.org/taxonomy/AIT_MTG/CrossArea_subclass_491edde6ce">CrossArea_subclass:491edde6ce</a></td>
+<td></td>
+<td>We performed PCA (50 components) on our full dataset, trained a random forest classifier (scikit-learn, class_ weight=‘balanced’, max_depth=50) on the MTG labels, and then predicted labels for all cells. We labeled each cluster with the mode of its constituent cells if two conditions were met: more than 0.8 of predicted labels matched the mode, and the mean probability of these pre- dictions was greater than 0.8.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Author annotation fields:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Author annotation</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cluster ID</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Class auto_annotation</td>
+<td>OLIGO</td>
+</tr>
+<tr>
+<td>Neurotransmitter auto_annotation</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Neuropeptide auto_annotation</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Subtype auto_annotation</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Transferred MTG Label</td>
+<td>Oligo</td>
+</tr>
+<tr>
+<td>Top three regions</td>
+<td>Hypothalamus: 90.7%, Thalamus: 3.6%, Basal forebrain: 3.6%</td>
+</tr>
+<tr>
+<td>Top three dissections</td>
+<td>Human MN: 90.7%, Human GPe: 3.6%, Human CM-Pf: 3.5%</td>
+</tr>
+<tr>
+<td>Top Enriched Genes</td>
+<td>PTCSC3, AC012494.2, AL591115.1, AC103831.1, AC093330.1, AL589787.1, AC061958.1, PDE4B-AS1, AC026746.1, AC108721.1</td>
+</tr>
+<tr>
+<td>Number of cells</td>
+<td>3044.0</td>
+</tr>
+<tr>
+<td>DoubletFinder score</td>
+<td>0.038043685</td>
+</tr>
+<tr>
+<td>Total UMI</td>
+<td>13546.87155</td>
+</tr>
+<tr>
+<td>Fraction unspliced</td>
+<td>0.824270298</td>
+</tr>
+<tr>
+<td>Fraction mitochondrial</td>
+<td>0.000135339</td>
+</tr>
+<tr>
+<td>H19.30.002</td>
+<td>138.0</td>
+</tr>
+<tr>
+<td>H19.30.001</td>
+<td>2901.0</td>
+</tr>
+<tr>
+<td>H18.30.002</td>
+<td>5.0</td>
+</tr>
+<tr>
+<td>H18.30.001</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>Fraction cells from top donor</td>
+<td>0.953022339</td>
+</tr>
+<tr>
+<td>Number of donors</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>subcluster_id</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
+      
+    
+  </body>
+</html>
