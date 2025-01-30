@@ -6,8 +6,9 @@
 {% set rows = result.rows %}
 
 {% block styles %}
-<link href="/api/browser/human-brain-cell-atlas_v1_non-neuronal/static/main.css" rel="stylesheet">
-<link href="/tdt_api/browser/human-brain-cell-atlas_v1_non-neuronal/static/main.css" rel="stylesheet">
+<!-- edit-start (load /static/main.css dynamically) -->
+<link id="dynamicMainStylesheet" rel="stylesheet">
+<!-- edit-end -->
 {% endblock %}
 
 {% block content %}
@@ -102,6 +103,23 @@
     return newValues.concat(addedValues);
   };
 </script>
-<script defer="defer" src="/api/browser/human-brain-cell-atlas_v1_non-neuronal/static/main.js"></script>
-<script defer="defer" src="/tdt_api/browser/human-brain-cell-atlas_v1_non-neuronal/static/main.js"></script>
+<!-- edit-start (custom scripts) -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const currentUrl = new URL(window.location.href);
+    const basePath = currentUrl.origin + currentUrl.pathname.split('/table/')[0];
+
+    // Update main.css link
+    const stylesheetLink = document.getElementById('dynamicMainStylesheet');
+    stylesheetLink.href = `${basePath}/static/main.css`;
+
+    // Update main.js src
+    const scriptElement = document.getElementById('dynamicMainScript');
+    scriptElement.src = `${basePath}/static/main.js`;
+  });
+</script>
+<!-- edit-end -->
+<!-- edit-start -->
+<script id="dynamicMainScript" defer="defer"></script>
+<!-- edit-end -->
 {% endblock %}
