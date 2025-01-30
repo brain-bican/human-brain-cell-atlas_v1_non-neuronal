@@ -88,9 +88,9 @@ import_tables: $(RLTBLDB)
 	done
 
 define UPDATE_REVIEW_SQL
-INSERT INTO 'review'
-SELECT rowid, (1000 * rowid), cell_set_accession, datetime(), 'james', 'approved', ''
-FROM annotation
+INSERT INTO 'review' \
+SELECT rowid, (1000 * rowid), cell_set_accession, datetime(), 'james', 'approved', '' \
+FROM annotation \
 LIMIT 1;
 endef
 
