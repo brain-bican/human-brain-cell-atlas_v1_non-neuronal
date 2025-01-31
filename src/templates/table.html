@@ -8,11 +8,33 @@
 {% block styles %}
 <!-- edit-start (load /static/main.css dynamically) -->
 <link id="dynamicMainStylesheet" rel="stylesheet">
+<style>
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-container button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #000;
+    padding: 8px 15px;
+  }
+</style>
 <!-- edit-end -->
 {% endblock %}
 
 {% block content %}
-<h1>{{ table.name }}</h1>
+<!-- edit-start -->
+<div class="header-container">
+  <h1>{{ table.name }}</h1>
+  {% if table.name == "annotation" %}
+  <button>Taxonomy View</button>
+  {% endif %}
+</div>
+<!-- edit-end -->
 
 <div id="portal" style="width: 100%; min-width: 400px; left: auto; right: auto"></div>
 

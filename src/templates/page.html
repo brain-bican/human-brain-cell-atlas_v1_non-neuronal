@@ -28,7 +28,7 @@
             <!-- edit-start (update page redirections urls) -->
             <ul class="dropdown-menu" id="tablesDropdown">
               {% for tablename, table in site.tables|items %}
-              <li><a class="dropdown-item" data-tablename="{{tablename}}" href="/table/{{tablename}}">{{ tablename }}</a></li>
+              <li><a class="dropdown-item" href="/table/{{tablename}}" tdt-token-link>{{ tablename }}</a></li>
               {% endfor %}
             </ul>
             <!-- edit-end -->
@@ -96,17 +96,51 @@
     crossorigin="anonymous"></script>
   <!-- edit-start -->
   <script>
+    function refresh_tdt_token_links() {
+      const links = document.querySelectorAll('a[tdt-token-link]');
+      links.forEach(link => {
+        current_link = link.href;
+        // apply base path
+        const current_url = new URL(current_link);
+        var relative_link = '/' + current_url.pathname.split('/').slice(1).join('/');
+        if (!relative_link.startsWith(localStorage.getItem('basePath'))) {
+          relative_link = localStorage.getItem('basePath') + relative_link;
+        }
+        const new_link = localStorage.getItem('origin') + relative_link;
+
+        // apply token
+        const url = new URL(new_link);
+        url.searchParams.set('token', localStorage.getItem('authToken'));
+        link.href = url.toString();
+      });
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
       const currentUrl = new URL(window.location.href);
-      const basePath = currentUrl.origin + currentUrl.pathname.split('/table/')[0];
+      const currentOrigin = currentUrl.origin;
+      const currentBasePath = currentUrl.pathname.split('/table/')[0]; // without http...
+      const baseURL = currentOrigin + currentBasePath
       const token = currentUrl.searchParams.get('token');
-      const dropdownItems = document.querySelectorAll('#tablesDropdown .dropdown-item');
+      localStorage.setItem('authToken', token);
+      localStorage.setItem('baseURL', baseURL);
+      localStorage.setItem('basePath', currentBasePath);
+      localStorage.setItem('origin', currentOrigin);
 
-      dropdownItems.forEach(item => {
-        const tablename = item.getAttribute('data-tablename');
-        item.href = `${basePath}/table/${tablename}?token=${token}`;
+      refresh_tdt_token_links();
+
+      // Intercept when a layer is added to the DOM
+      const formNames = ['column_menu', 'cell_menu']; // Replace with your form names
+      const observer = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+          console.log(mutation);
+          if (mutation.type === 'childList') {
+            refresh_tdt_token_links();
+          }
+        }
       });
-    });
+      observer.observe(document.body, { childList: true, subtree: true });
+
+    }); // DOMContentLoaded
   </script>
   <!-- edit-end -->
   {% block scripts %}
