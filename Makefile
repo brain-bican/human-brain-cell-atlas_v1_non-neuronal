@@ -79,7 +79,7 @@ import_tables: $(RLTBLDB)
 		sqlite3 $(RLTBLDB) ".mode tabs" \
 			".import curation_tables/$${TABLE}.tsv $${TABLE}_temp" \
 			|| { echo "Error: Failed to import $${TABLE}.tsv"; exit 1; }; \
-		sqlite3 $(RLTBLDB) "CREATE TABLE $${TABLE} AS SELECT rowid AS _id, (1000 * rowid) AS _order, * FROM '$${TABLE}_temp';" \
+		sqlite3 $(RLTBLDB) "CREATE TABLE $${TABLE} AS SELECT rowid AS _id, CAST(1000*rowid AS NUMERIC) AS _order, * FROM '$${TABLE}_temp';" \
 			|| { echo "Error: create table $${TABLE}"; exit 1; }; \
 		sqlite3 $(RLTBLDB) "DROP TABLE $${TABLE}_temp" \
 			|| { echo "Error: drop table $${TABLE}"; exit 1; }; \

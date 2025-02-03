@@ -6,8 +6,9 @@
 {% set rows = result.rows %}
 
 {% block styles %}
+<link href="{{site.root}}/static/main.css" rel="stylesheet">
 <!-- edit-start (load /static/main.css dynamically) -->
-<link id="dynamicMainStylesheet" rel="stylesheet">
+<!-- <link id="dynamicMainStylesheet" rel="stylesheet"> -->
 <style>
   .header-container {
     display: flex;
@@ -27,14 +28,26 @@
 {% endblock %}
 
 {% block content %}
-<!-- edit-start -->
-<div class="header-container">
-  <h1>{{ table.name }}</h1>
+<div class="float-end mt-1">
+  <!-- edit-start -->
   {% if table.name == "annotation" %}
-  <button>Taxonomy View</button>
+  <a class="btn btn-outline-primary" href="{{site.root}}/table/{{table.name}}" tdt-token-link>
+    <i class="bi bi-diagram-3"></i>
+    Taxonomy View
+  </a>
   {% endif %}
+  <!-- edit-end -->
+  <a class="btn btn-outline-primary" href="{{site.root}}/table/{{table.name}}" tdt-token-link>
+    <i class="bi bi-funnel"></i>
+    Clear Filters
+  </a>
+  <a class="btn btn-outline-primary" href="{{site.root}}/add-row/{{table.name}}" tdt-token-link>
+    <i class="bi bi-plus"></i>
+    Append Row
+  </a>
 </div>
-<!-- edit-end -->
+
+<h1>{{ table.name }}</h1>
 
 <div id="portal" style="width: 100%; min-width: 400px; left: auto; right: auto"></div>
 
@@ -124,24 +137,63 @@
     } catch (e) { }
     return newValues.concat(addedValues);
   };
+
+  document.body.addEventListener("click", function (e) {
+    var column = document.getElementById("filter-value");
+    if (column) {
+      // TODO: This should handle multiple columns.
+      column = column.name;
+      var order = "";
+      if (e.target.id === "sort-asc") {
+        order = column;
+      } else if (e.target.id === "sort-desc") {
+        order = `${column}.desc`;
+      }
+      if (order) {
+        e.preventDefault();
+        const params = new URLSearchParams(document.location.search);
+        params.set("order", order);
+        document.location = `?${params.toString()}`;
+        return false;
+      } else if (e.target.id === "sort-none") {
+        e.preventDefault();
+        const params = new URLSearchParams(document.location.search);
+        params.delete("order");
+        document.location = `?${params.toString()}`;
+        return false;
+      }
+    }
+  });
+
+  document.body.addEventListener("submit", function (e) {
+    if (e.target.id === "filter-column") {
+      e.preventDefault();
+      if (e.submitter.id === "filter-clear") {
+        document.location = '{{site.root}}/table/{{table.name}}';
+      } else {
+        const column = document.getElementById("filter-value").name;
+        var operator = document.getElementById("filter-operator").value;
+        var value = document.getElementById("filter-value").value;
+        if (operator === "contains") {
+          operator = "like";
+          value = `*${value}*`;
+        } else if (operator === "is") {
+          value = 'NULL';
+        } else if (operator === "is_not") {
+          value = 'NULL';
+        }
+        document.location = `?${column}=${operator}.${value}`;
+      }
+      return false;
+    }
+  });
 </script>
 <!-- edit-start (custom scripts) -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const currentUrl = new URL(window.location.href);
-    const basePath = currentUrl.origin + currentUrl.pathname.split('/table/')[0];
 
-    // Update main.css link
-    const stylesheetLink = document.getElementById('dynamicMainStylesheet');
-    stylesheetLink.href = `${basePath}/static/main.css`;
-
-    // Update main.js src
-    const scriptElement = document.getElementById('dynamicMainScript');
-    scriptElement.src = `${basePath}/static/main.js`;
   });
 </script>
 <!-- edit-end -->
-<!-- edit-start -->
-<script id="dynamicMainScript" defer="defer"></script>
-<!-- edit-end -->
+<script defer="defer" src="{{site.root}}/static/main.js"></script>
 {% endblock %}
