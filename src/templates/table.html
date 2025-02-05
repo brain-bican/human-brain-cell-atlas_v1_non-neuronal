@@ -31,17 +31,17 @@
 <div class="float-end mt-1">
   <!-- edit-start -->
   {% if table.name == "annotation" %}
-  <a class="btn btn-outline-primary" href="{{site.root}}/table/{{table.name}}" tdt-token-link>
+  <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#taxonomyModal">
     <i class="bi bi-diagram-3"></i>
     Taxonomy View
   </a>
   {% endif %}
   <!-- edit-end -->
-  <a class="btn btn-outline-primary" href="{{site.root}}/table/{{table.name}}" tdt-token-link>
+  <a class="btn btn-outline-primary" href="{{site.root}}/table/{{table.name}}">
     <i class="bi bi-funnel"></i>
     Clear Filters
   </a>
-  <a class="btn btn-outline-primary" href="{{site.root}}/add-row/{{table.name}}" tdt-token-link>
+  <a class="btn btn-outline-primary" href="{{site.root}}/add-row/{{table.name}}">
     <i class="bi bi-plus"></i>
     Append Row
   </a>
@@ -70,6 +70,10 @@
     {% endfor %}
   </tbody>
 </table>
+
+<!-- Include the taxonomy_view template -->
+{% include "taxonomy_view.html" %}
+
 {% endblock %}
 
 {% block scripts %}
