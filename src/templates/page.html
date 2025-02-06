@@ -26,13 +26,6 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Tables
             </a>
-            <!-- edit-start (update page redirections urls) -->
-            <!-- <ul class="dropdown-menu" id="tablesDropdown">
-              {% for tablename, table in site.tables|items %}
-              <li><a class="dropdown-item" href="/table/{{tablename}}">{{ tablename }}</a></li>
-              {% endfor %}
-            </ul> -->
-            <!-- edit-end -->
             <ul class="dropdown-menu">
               {% for tablename, table in site.tables|items %}
               <li><a class="dropdown-item" href="{{site.root}}/table/{{tablename}}">{{ tablename }}</a></li>
@@ -41,6 +34,14 @@
           </li>
           {% block menus %}{% endblock %}
         </ul>
+        <!-- edit-start (visitor session warning) -->
+        {% if site.user.name == "visitor" %}
+        <div class="alert alert-warning text-center w-75">
+          <i class="bi bi-exclamation-triangle-fill"></i>
+          Session expired, please re-<a id="relogin_link" href="{{site.root}}/login" class="alert-link">login</a>.
+        </div>
+        {% endif %}
+        <!-- edit-end -->
         <ul class="navbar-nav mb-2 mb-md-0">
           {% if site.users %}
           <li class="nav-item dropdown">
@@ -60,22 +61,26 @@
             </ul>
           </li>
           {% endif %}
-          {% if site.user.name %}
+          {% if site.user.name and site.user.name != "visitor" %}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
               data-bs-auto-close="outside">
               {{ site.user.name }}
             </a>
             <div class="dropdown-menu dropdown-menu-end">
-              <a class="dropdown-item" href="{{site.root}}/logout">
-                <i class="bi bi-box-arrow-right"></i>
-                Sign out
+              <a id="github_repo" class="dropdown-item" target="_blank" href="https://github.com">
+                <i class="bi bi-github"></i>
+                Repository
+              </a>
+              <a id="access_permission" class="dropdown-item" href="#">
+                <i class="bi bi-pencil-square"></i>
+                READ
               </a>
             </div>
           </li>
           {% else %}
           <li class="nav-item">
-            <a class="btn btn-primary" href="{{site.root}}/login">
+            <a class="btn btn-primary" id="login_link" href="{{site.root}}/login">
               <i class="bi bi-box-arrow-in-right"></i>
               Sign in
             </a>
@@ -97,7 +102,49 @@
     crossorigin="anonymous"></script>
   <!-- edit-start -->
   <script>
+    function update_navigation_links(data) {
+      const loginLink = document.getElementById('login_link');
+      if (loginLink) {
+        loginLink.href = data.tdt_web + "/taxonomies";
+      }
+      const reloginLink = document.getElementById('relogin_link');
+      if (reloginLink) {
+        reloginLink.href = data.tdt_web + "/taxonomies";
+      }
+      const githubRepoLink = document.getElementById('github_repo');
+      if (githubRepoLink) {
+        githubRepoLink.href = sessionStorage.getItem('repo_url');
+      }
+      const accessPermission = document.getElementById('access_permission');
+      if (accessPermission) {
+        accessPermission.innerHTML = `<i class="bi bi-pencil-square"></i> ${data.permission.toUpperCase()}`;
+      }
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
+
+      // Extract backend URL and repo name from the current page URL
+      const currentUrl = window.location.href;
+      const backendUrl = currentUrl.split('/browser')[0];
+      const repoName = currentUrl.split('/table')[0].split('/').pop();
+
+      // Store backend URL and repo name in sessionStorage
+      sessionStorage.setItem('backend_url', backendUrl);
+      sessionStorage.setItem('repo_name', repoName);
+
+      // Make a GET request to backend_url/session_info/repo_name
+      const sessionInfoUrl = `${backendUrl}/session_info/${repoName}`;
+      fetch(sessionInfoUrl)
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+          // Store tdt_web and repo_org in sessionStorage
+          sessionStorage.setItem('tdt_web', data.tdt_web);
+          sessionStorage.setItem('repo_url', "https://github.com/" + data.repo_org + "/" + sessionStorage.getItem('repo_name'));
+          update_navigation_links(data);
+        })
+        .catch(error => console.error('Error fetching session info:', error));
+
 
     }); // DOMContentLoaded
   </script>

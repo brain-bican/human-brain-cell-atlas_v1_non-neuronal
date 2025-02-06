@@ -508,7 +508,7 @@
 <script>
     var $sourceTree = null;
     var table_data = null;
-    table_json_url = String(window.location.href).split("?")[0] + ".json?limit=100000";
+    table_json_url = String(window.location.href).split("?")[0].split("#")[0] + ".json?limit=100000";
     labelset_json_url = String(window.location.href).split("/annotation")[0] + "/labelset.json?limit=100000";
     var api_results = {}; // final object containing consolidated api result
     $.when(
@@ -521,7 +521,6 @@
           var labelset_ranks = [];
           for (index in labelset_data) {
             labelset = labelset_data[index]["cells"];
-            console.log(labelset);
             if (labelset.rank && labelset.rank.value) {
               labelset_ranks[labelset.name.value] = parseInt(labelset.rank.value);
             } else {
@@ -533,6 +532,7 @@
     ).done(function() {
       data = api_results["annotations"]
       labelset_ranks = api_results["labelsets"]
+      console.log("labelset_ranks", labelset_ranks);
       for (index in data) {
         // Unpack data_item.cells.x.value to new_data_item.x
         let data_item = data[index];
@@ -577,7 +577,7 @@
         parents[parent_cell_set_accession]["nodes"].push(record_node);
       }
   
-      // console.log("Setting up source-treeview", root_node);
+    //   console.log("Setting up source-treeview", root_node);
       $sourceTree = $('#source-treeview').bstreeview({
         data: [root_node],
         color: "#428bca",
@@ -704,3 +704,15 @@
       $('#info-box').html(info);
     }
   </script>
+
+<script>
+    // dynamically set the height of the treeview and info-box
+    $(document).ready(function() {
+        $('#taxonomyModal').on('shown.bs.modal', function () {
+            var modalHeight = $('#taxonomyModal .modal-content').height();
+            var treeviewHeight = modalHeight * 0.75;
+            $('#source-treeview').css('height', treeviewHeight + 'px');
+            $('#info-box').css('height', (treeviewHeight - 30) + 'px');
+        });
+    });
+</script>
