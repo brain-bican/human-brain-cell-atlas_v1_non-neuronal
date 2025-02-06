@@ -24,7 +24,7 @@ build/nanobot: | build/
 	chmod +x $@
 
 $(RLTBL):
-	chmod +x $@"
+	chmod +x $@
 
 # For first time data loading. Skips table creation if tables already exist.
 .PHONY: load_data
