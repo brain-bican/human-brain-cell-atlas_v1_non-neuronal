@@ -73,7 +73,7 @@ serve: $(NANOBOTDB)
 # Import tables into the database
 import_tables: $(RLTBLDB)
 	@echo "Current working directory is: $(PWD)"
-	@echo "Processing tables: $(TABLES)" 
+	@echo "Processing tables: $(TABLES)"
 	for TABLE in $(TABLES); do \
 		echo "Processing table: $$TABLE"; \
 		sqlite3 $(RLTBLDB) ".mode tabs" \
@@ -96,8 +96,8 @@ endef
 
 # Update the 'review' table to add a dummy review
 update_review: $(RLTBLDB)
-	@echo "Updating the review table." 
-	@echo "$(UPDATE_REVIEW_SQL)" | sqlite3 $(RLTBLDB) 
+	@echo "Updating the review table."
+	@echo "$(UPDATE_REVIEW_SQL)" | sqlite3 $(RLTBLDB)
 
 define CREATE_VIEW_SQL
 CREATE VIEW annotation_default_view AS  \
@@ -114,7 +114,7 @@ endef
 
 # Create the 'annotation_default_view'
 create_view: $(RLTBLDB)
-	@echo "$(CREATE_VIEW_SQL)" | sqlite3 $(RLTBLDB) 
+	@echo "$(CREATE_VIEW_SQL)" | sqlite3 $(RLTBLDB)
 
 .PHONY: init
 init: $(RLTBLDB) import_tables update_review create_view
